@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+	<BiomeDef>
+		<defName>ZWB_LandPond</defName>
+		<label>land pond</label>
+		<description>The remnants of what was once a pond. Over time, the waters receded and the land dried up. Rather than follow the water, the flora and fauna that made the pond their home have instead adapted to land.</description>
+		<texture>ZWB_Textures/Purple</texture>
+		<workerClass>ZWBCore.BiomeWorker_Test</workerClass>
+		<settlementSelectionWeight>0.5</settlementSelectionWeight>
+		<movementDifficulty>1.5</movementDifficulty>
+		<animalDensity>5.0</animalDensity>
+		<plantDensity>0.9</plantDensity>
+		<wildPlantRegrowDays>12</wildPlantRegrowDays>
+		<forageability>1</forageability>
+		<foragedFood>RawBerries</foragedFood>
+		<maxFishPopulation>720</maxFishPopulation>
+		<!-- <wildPlantsCareAboutLocalFertility>false</wildPlantsCareAboutLocalFertility> -->
+		<fishTypes MayRequire="Ludeon.RimWorld.Odyssey">
+			<freshwater_Common>
+				<Fish_Tilapia MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Tilapia>
+			</freshwater_Common>
+			<freshwater_Uncommon>
+				<Fish_Piranha MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Piranha>
+			</freshwater_Uncommon>
+			<saltwater_Common>
+				<Fish_Bluefish MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Bluefish>
+			</saltwater_Common>
+			<saltwater_Uncommon>
+				<Fish_Tuna MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Tuna>
+				<Fish_Flounder MayRequire="Ludeon.RimWorld.Odyssey">1</Fish_Flounder>
+			</saltwater_Uncommon>
+			<rareCatchesSetMaker MayRequire="Ludeon.RimWorld.Odyssey">RareFishingCatches_Tropical</rareCatchesSetMaker>
+		</fishTypes>
+		<soundsAmbient>
+			<li>Ambient_NightInsects_Standard</li>
+		</soundsAmbient>
+		<diseaseMtbDays>60</diseaseMtbDays>
+		<diseases>
+			<li>
+				<diseaseInc>Disease_Flu</diseaseInc>
+				<commonality>100</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_Plague</diseaseInc>
+				<commonality>100</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_GutWorms</diseaseInc>
+				<commonality>50</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_FibrousMechanites</diseaseInc>
+				<commonality>30</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_SensoryMechanites</diseaseInc>
+				<commonality>30</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_MuscleParasites</diseaseInc>
+				<commonality>50</commonality>
+			</li>
+
+			<li>
+				<diseaseInc>Disease_AnimalFlu</diseaseInc>
+				<commonality>100</commonality>
+			</li>
+			<li>
+				<diseaseInc>Disease_AnimalPlague</diseaseInc>
+				<commonality>100</commonality>
+			</li>
+		</diseases>
+		<riverbankTerrain>ZWB_BiogenicSand</riverbankTerrain>
+		<waterShallowTerrain>WaterShallow</waterShallowTerrain>
+		<waterDeepTerrain>WaterDeep</waterDeepTerrain>
+		<terrainsByFertility>
+			<li>
+				<terrain>ZWB_GenicSand</terrain>
+				<min>-999</min>
+				<max>0.45</max>
+			</li>
+			<li>
+				<terrain>ZWB_SandySilt</terrain>
+				<min>0.45</min>
+				<max>0.80</max>
+			</li>
+			<li>
+				<terrain>ZWB_EnrichedSilt</terrain>
+				<min>0.80</min>
+				<max>999</max>
+			</li>
+		</terrainsByFertility>
+		<terrainPatchMakers>
+			<li>
+				<perlinFrequency>0.022</perlinFrequency>
+				<isPond>true</isPond>
+				<thresholds>
+					<li>
+						<terrain>ZWB_SandySilt</terrain>
+						<min>0.45</min>
+						<max>0.6</max>
+					</li>
+					<li>
+						<terrain>ZWB_EnrichedSilt</terrain>
+						<min>0.6</min>
+						<max>0.82</max>
+					</li>
+					<li>
+						<terrain>WaterShallow</terrain>
+						<min>0.82</min>
+						<max>999</max>
+					</li>
+				</thresholds>
+			</li>
+		</terrainPatchMakers>
+
+		<baseWeatherCommonalities>
+			<Clear>18</Clear>
+			<Fog>1</Fog>
+			<Rain>2</Rain>
+			<DryThunderstorm>1.5</DryThunderstorm>
+			<RainyThunderstorm>1</RainyThunderstorm>
+			<FoggyRain>1</FoggyRain>
+			<SnowGentle>2</SnowGentle>
+			<SnowHard>4</SnowHard>
+			<GrayPall MayRequire="Ludeon.RimWorld.Anomaly">1</GrayPall>
+			<Overcast MayRequire="Ludeon.RimWorld.Odyssey">2</Overcast>
+			<TorrentialRain MayRequire="Ludeon.RimWorld.Odyssey">0.5</TorrentialRain>
+		</baseWeatherCommonalities>
+		<wildPlants>
+			<!-- ground cover -->
+			<ZWB_PlantOne>1.5</ZWB_PlantOne>
+			<ZWB_PlantTwo>0.9</ZWB_PlantTwo>
+			<ZWB_PlantThree>1.3</ZWB_PlantThree>
+			<ZWB_PlantFour>0.5</ZWB_PlantFour>
+			<ZWB_PlantFive>1.0</ZWB_PlantFive>
+
+		</wildPlants>
+		<wildAnimals>
+			
+
+		</wildAnimals>
+		<pollutionWildAnimals MayRequire="Ludeon.RimWorld.Biotech">
+			<WasteRat MayRequire="Ludeon.RimWorld.Biotech">0.1</WasteRat>
+			<Rat>1</Rat>
+			<Boomrat>0.4</Boomrat>
+			<Boomalope>0.1</Boomalope>
+		</pollutionWildAnimals>
+		<coastalWildAnimals>
+			<SeaLion MayRequire="Ludeon.RimWorld.Odyssey">0.1</SeaLion>
+			<Seal MayRequire="Ludeon.RimWorld.Odyssey">0.1</Seal>
+			<StoneCrab MayRequire="Ludeon.RimWorld.Odyssey">0.1</StoneCrab>
+			<Otter MayRequire="Ludeon.RimWorld.Odyssey">0.1</Otter>
+			<SeaTurtle MayRequire="Ludeon.RimWorld.Odyssey">0.1</SeaTurtle>
+		</coastalWildAnimals>
+		<allowedPackAnimals>
+			<li>Muffalo</li>
+			<li>Alpaca</li>
+			<li>Dromedary</li>
+		</allowedPackAnimals>
+	</BiomeDef>
+
+</Defs>

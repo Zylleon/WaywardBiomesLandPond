@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+	<ThingDef ParentName="PlantBase">
+		<defName>ZWB_PlantOne</defName>
+		<label>plant1</label>
+		<description>PLACEHOLDER - grasslike, clusters. Stems with clusters of thin leaves</description>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Beauty>4</Beauty>
+			<BeautyOutdoors>4</BeautyOutdoors>
+			<Nutrition>0.4</Nutrition>
+		</statBases>
+		<pathCost>18</pathCost>
+		<graphicData>
+			<texPath>ZWB_Textures/Plants/Plant1</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
+		<ingestible/>
+		<plant>
+			<fertilitySensitivity>0.0</fertilitySensitivity>
+			<growDays>3.5</growDays>
+			<fertilityMin>0.05</fertilityMin>
+			<maxMeshCount>9</maxMeshCount>
+			<visualSizeRange>0.35~0.8</visualSizeRange>
+			<topWindExposure>0.5</topWindExposure>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>200</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+
+
+	<ThingDef ParentName="PlantBase">
+		<defName>ZWB_PlantTwo</defName>
+		<label>plant2</label>
+		<description>PLACEHOLDER - medium height plants, each with several long green leaves on long green stems.</description>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Beauty>4</Beauty>
+			<BeautyOutdoors>4</BeautyOutdoors>
+			<Nutrition>0.4</Nutrition>
+		</statBases>
+		<pathCost>18</pathCost>
+		<graphicData>
+			<texPath>ZWB_Textures/Plants/Plant2</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
+		<ingestible/>
+		<plant>
+			<fertilitySensitivity>0.0</fertilitySensitivity>
+			<growDays>3.5</growDays>
+			<fertilityMin>0.05</fertilityMin>
+			<!-- <maxMeshCount>9</maxMeshCount> -->
+			<visualSizeRange>0.6~1.2</visualSizeRange>
+			<topWindExposure>0.5</topWindExposure>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>200</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+
+
+
+
+	<ThingDef ParentName="PlantBase">
+		<defName>ZWB_PlantThree</defName>
+		<label>plant3</label>
+		<description>PLACEHOLDER - long stems with plump leaves. Clustered.</description>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Beauty>4</Beauty>
+			<BeautyOutdoors>4</BeautyOutdoors>
+			<Nutrition>0.4</Nutrition>
+		</statBases>
+		<pathCost>18</pathCost>
+		<graphicData>
+			<texPath>ZWB_Textures/Plants/Plant3</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
+		<ingestible/>
+		<plant>
+			<fertilitySensitivity>0.0</fertilitySensitivity>
+			<growDays>3.5</growDays>
+			<fertilityMin>0.05</fertilityMin>
+			<maxMeshCount>4</maxMeshCount>
+			<visualSizeRange>0.35~1.2</visualSizeRange>
+			<topWindExposure>0.5</topWindExposure>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>200</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+
+
+
+	<ThingDef ParentName="PlantBase">
+		<defName>ZWB_PlantFour</defName>
+		<label>plant4</label>
+		<description>PLACEHOLDER - large, broad leaves, often with red markings</description>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Beauty>4</Beauty>
+			<BeautyOutdoors>4</BeautyOutdoors>
+			<Nutrition>0.4</Nutrition>
+		</statBases>
+		<pathCost>18</pathCost>
+		<graphicData>
+			<texPath>ZWB_Textures/Plants/Plant4</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
+		<ingestible/>
+		<plant>
+			<fertilitySensitivity>0.0</fertilitySensitivity>
+			<growDays>3.5</growDays>
+			<fertilityMin>0.05</fertilityMin>
+			<maxMeshCount>4</maxMeshCount>
+			<visualSizeRange>0.35~0.9</visualSizeRange>
+			<topWindExposure>0.5</topWindExposure>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>200</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="PlantBase">
+		<defName>ZWB_PlantFive</defName>
+		<label>plant5</label>
+		<description>PLACEHOLDER - tall plants, each with several green leaves on long red stems.</description>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Beauty>4</Beauty>
+			<BeautyOutdoors>4</BeautyOutdoors>
+			<Nutrition>0.4</Nutrition>
+		</statBases>
+		<pathCost>18</pathCost>
+		<graphicData>
+			<texPath>ZWB_Textures/Plants/Plant5</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
+		<ingestible/>
+		<plant>
+			<fertilitySensitivity>0.0</fertilitySensitivity>
+			<growDays>3.5</growDays>
+			<fertilityMin>0.05</fertilityMin>
+			<!-- <maxMeshCount>9</maxMeshCount> -->
+			<visualSizeRange>0.8~1.8</visualSizeRange>
+			<topWindExposure>0.5</topWindExposure>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>200</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+</Defs>
+
