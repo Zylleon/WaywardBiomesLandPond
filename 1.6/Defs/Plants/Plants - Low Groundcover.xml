@@ -3,8 +3,8 @@
 
 
 	<ThingDef ParentName="PlantBase">
-		<defName>ZWB_PlantOne</defName>
-		<label>plant1</label>
+		<defName>ZWB_Duckwort</defName>
+		<label>duckwort</label>
 		<description>PLACEHOLDER - grasslike, clusters. Stems with clusters of thin leaves</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
@@ -14,7 +14,7 @@
 		</statBases>
 		<pathCost>18</pathCost>
 		<graphicData>
-			<texPath>ZWB_Textures/Plants/Plant1</texPath>
+			<texPath>ZWB_Textures/Plants/Duckwort</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
@@ -34,8 +34,8 @@
 
 
 	<ThingDef ParentName="PlantBase">
-		<defName>ZWB_PlantTwo</defName>
-		<label>plant2</label>
+		<defName>ZWB_Greenflop</defName>
+		<label>greenflop</label>
 		<description>PLACEHOLDER - medium height plants, each with several long green leaves on long green stems.</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
@@ -45,7 +45,7 @@
 		</statBases>
 		<pathCost>18</pathCost>
 		<graphicData>
-			<texPath>ZWB_Textures/Plants/Plant2</texPath>
+			<texPath>ZWB_Textures/Plants/Greenflop</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
@@ -67,8 +67,8 @@
 
 
 	<ThingDef ParentName="PlantBase">
-		<defName>ZWB_PlantThree</defName>
-		<label>plant3</label>
+		<defName>ZWB_Pondruff</defName>
+		<label>pondruff</label>
 		<description>PLACEHOLDER - long stems with plump leaves. Clustered.</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
@@ -78,7 +78,7 @@
 		</statBases>
 		<pathCost>18</pathCost>
 		<graphicData>
-			<texPath>ZWB_Textures/Plants/Plant3</texPath>
+			<texPath>ZWB_Textures/Plants/Pondruff</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
@@ -99,8 +99,8 @@
 
 
 	<ThingDef ParentName="PlantBase">
-		<defName>ZWB_PlantFour</defName>
-		<label>plant4</label>
+		<defName>ZWB_Bloodfern</defName>
+		<label>bloodfern</label>
 		<description>PLACEHOLDER - large, broad leaves, often with red markings</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
@@ -110,7 +110,7 @@
 		</statBases>
 		<pathCost>18</pathCost>
 		<graphicData>
-			<texPath>ZWB_Textures/Plants/Plant4</texPath>
+			<texPath>ZWB_Textures/Plants/Bloodfern</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
@@ -131,8 +131,8 @@
 	
 	
 	<ThingDef ParentName="PlantBase">
-		<defName>ZWB_PlantFive</defName>
-		<label>plant5</label>
+		<defName>ZWB_Arrowleaf</defName>
+		<label>arrowleaf</label>
 		<description>PLACEHOLDER - tall plants, each with several green leaves on long red stems.</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
@@ -142,7 +142,7 @@
 		</statBases>
 		<pathCost>18</pathCost>
 		<graphicData>
-			<texPath>ZWB_Textures/Plants/Plant5</texPath>
+			<texPath>ZWB_Textures/Plants/Arrowleaf</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>

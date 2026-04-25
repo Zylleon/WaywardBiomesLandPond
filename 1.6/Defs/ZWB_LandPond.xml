@@ -131,11 +131,11 @@
 		</baseWeatherCommonalities>
 		<wildPlants>
 			<!-- ground cover -->
-			<ZWB_PlantOne>1.5</ZWB_PlantOne>
-			<ZWB_PlantTwo>0.9</ZWB_PlantTwo>
-			<ZWB_PlantThree>1.3</ZWB_PlantThree>
-			<ZWB_PlantFour>0.5</ZWB_PlantFour>
-			<ZWB_PlantFive>1.0</ZWB_PlantFive>
+			<ZWB_Duckwort>1.5</ZWB_Duckwort>
+			<ZWB_Greenflop>0.9</ZWB_Greenflop>
+			<ZWB_Pondruff>1.3</ZWB_Pondruff>
+			<ZWB_Bloodfern>0.5</ZWB_Bloodfern>
+			<ZWB_Arrowleaf>1.0</ZWB_Arrowleaf>
 
 		</wildPlants>
 		<wildAnimals>
