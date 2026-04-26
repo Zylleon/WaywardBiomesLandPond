@@ -88,7 +88,7 @@
 			<growDays>3.5</growDays>
 			<fertilityMin>0.05</fertilityMin>
 			<maxMeshCount>4</maxMeshCount>
-			<visualSizeRange>0.35~1.2</visualSizeRange>
+			<visualSizeRange>0.4~1.4</visualSizeRange>
 			<topWindExposure>0.5</topWindExposure>
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>200</wildClusterWeight>
@@ -155,6 +155,38 @@
 			<visualSizeRange>0.8~1.8</visualSizeRange>
 			<topWindExposure>0.5</topWindExposure>
 			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>200</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>	
+	
+	
+	
+	<ThingDef ParentName="PlantBase">
+		<defName>ZWB_MinnowsTangle</defName>
+		<label>minnow's tangle</label>
+		<description>PLACEHOLDER - light green, bramble-like, grows in clusters.</description>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Beauty>4</Beauty>
+			<BeautyOutdoors>4</BeautyOutdoors>
+			<Nutrition>0.2</Nutrition>
+		</statBases>
+		<pathCost>18</pathCost>
+		<graphicData>
+			<texPath>ZWB_Textures/Plants/MinnowsTangle</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
+		<ingestible/>
+		<plant>
+			<fertilitySensitivity>0.0</fertilitySensitivity>
+			<growDays>3.5</growDays>
+			<fertilityMin>0.05</fertilityMin>
+			<maxMeshCount>16</maxMeshCount>
+			<visualSizeRange>0.2~.55</visualSizeRange>
+			<topWindExposure>0.2</topWindExposure>
+			<wildClusterRadius>8</wildClusterRadius>
 			<wildClusterWeight>200</wildClusterWeight>
 			<wildOrder>1</wildOrder>
 		</plant>
