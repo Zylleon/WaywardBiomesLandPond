@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+	<ThingDef ParentName="TreeBase">
+		<defName>ZWB_GiantLotus</defName>
+		<label>giant lotus</label>
+		<description>PLACEHOLDER - large, tree-like variant of the lotus that can be harvested for wood. No flowers.</description>
+		<statBases>
+			<Beauty>4</Beauty>
+			<BeautyOutdoors>4</BeautyOutdoors>
+			<Nutrition>1.25</Nutrition>
+		</statBases>
+		<pathCost>18</pathCost>
+		<graphicData>
+			<texPath>ZWB_Textures/Plants/GiantLotus</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
+		<ingestible/>
+		<plant>
+			<fertilitySensitivity>0.75</fertilitySensitivity>
+			<growDays>11</growDays>
+			<fertilityMin>0.05</fertilityMin>
+			<!-- <maxMeshCount>9</maxMeshCount> -->
+			<visualSizeRange>0.5~2.1</visualSizeRange>
+			<topWindExposure>0.5</topWindExposure>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>200</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+			<harvestYield>17</harvestYield>
+		</plant>
+	</ThingDef>
+
+
+
+</Defs>
+

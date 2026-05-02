@@ -130,6 +130,11 @@
 			<TorrentialRain MayRequire="Ludeon.RimWorld.Odyssey">0.5</TorrentialRain>
 		</baseWeatherCommonalities>
 		<wildPlants>
+			<!-- trees -->
+			<ZWB_GiantLotus>1.0</ZWB_GiantLotus>
+		
+		
+		
 			<!-- ground cover -->
 			<ZWB_Duckwort>1.5</ZWB_Duckwort>
 			<ZWB_Greenflop>0.9</ZWB_Greenflop>
@@ -137,6 +142,8 @@
 			<ZWB_Bloodfern>0.5</ZWB_Bloodfern>
 			<ZWB_Arrowleaf>1.0</ZWB_Arrowleaf>
 			<ZWB_MinnowsTangle>0.5</ZWB_MinnowsTangle>
+			
+			<ZWB_Siltweed>0.5</ZWB_Siltweed>
 
 		</wildPlants>
 		<wildAnimals>
