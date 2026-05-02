@@ -21,13 +21,12 @@
 		<plant>
 			<fertilitySensitivity>0.75</fertilitySensitivity>
 			<growDays>11</growDays>
-			<fertilityMin>0.05</fertilityMin>
+			<fertilityMin>0.25</fertilityMin>
 			<!-- <maxMeshCount>9</maxMeshCount> -->
 			<visualSizeRange>0.5~2.1</visualSizeRange>
 			<topWindExposure>0.5</topWindExposure>
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>200</wildClusterWeight>
-			<wildOrder>1</wildOrder>
 			<harvestYield>17</harvestYield>
 		</plant>
 	</ThingDef>
