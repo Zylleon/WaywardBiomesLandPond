@@ -147,8 +147,15 @@
 
 		</wildPlants>
 		<wildAnimals>
-			
+			<!-- small grazers -->
+			<ZWB_Dippet>1.0</ZWB_Dippet>
+			<ZWB_Glurble>1.0</ZWB_Glurble>
 
+
+			<!-- large grazers -->
+			<ZWB_Wampap>1.0</ZWB_Wampap>
+			
+			
 		</wildAnimals>
 		<pollutionWildAnimals MayRequire="Ludeon.RimWorld.Biotech">
 			<WasteRat MayRequire="Ludeon.RimWorld.Biotech">0.1</WasteRat>

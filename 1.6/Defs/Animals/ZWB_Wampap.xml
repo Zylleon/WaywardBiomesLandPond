@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>ZWB_Wampap</defName>
+		<label>wampap</label>
+		<description>PLACEHOLDER - medium-large, greenish brown fish. Herbivore.</description>
+		<statBases>
+			<MoveSpeed>4.4</MoveSpeed>
+			<ComfyTemperatureMin>-20</ComfyTemperatureMin>
+			<ComfyTemperatureMax>40</ComfyTemperatureMax>
+			<MarketValue>190</MarketValue>
+			<Wildness>0.3</Wildness>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>ZWB_EggWampapUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>ZWB_EggWampapFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>4.6</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1~2</eggCountRange>
+			</li>
+		</comps>
+		<race>
+			<body>ZWB_QuadrupedLandFish</body>
+			<herdAnimal>true</herdAnimal>
+			<baseBodySize>2.0</baseBodySize>
+			<baseHungerRate>0.35</baseHungerRate>
+			<baseHealthScale>1.05</baseHealthScale>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<leatherDef>Leather_Plain</leatherDef>
+			<trainability>None</trainability>
+			<!-- <useMeatFrom>ZWB_Jesterfish</useMeatFrom> -->
+			<lifeExpectancy>16</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.15</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.33</minAge>
+					<soundWounded>ZWB_Melu_Wounded</soundWounded>
+					<soundDeath>ZWB_Melu_Death</soundDeath>
+					<soundCall>ZWB_Melu_Call</soundCall>
+					<soundAngry>ZWB_Melu_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+			<soundEating>Herbivore_Eat</soundEating>
+			<packAnimal>false</packAnimal>
+		</race>
+		<tradeTags>
+			<li>AnimalCommon</li>
+		</tradeTags>
+		<tools>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2.6</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+			<li>
+				<label>left flipper</label>
+				<labelNoLocation>flipper</labelNoLocation>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>ZWB_FrontLeftFlipper</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right flipper</label>
+				<labelNoLocation>flipper</labelNoLocation>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>ZWB_FrontRightFlipper</linkedBodyPartsGroup>
+			</li>
+		</tools>
+	</ThingDef>
+
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>ZWB_Wampap</defName>
+		<label>wampap</label>
+		<race>ZWB_Wampap</race>
+		<combatPower>60</combatPower>
+		<ecoSystemWeight>0.9</ecoSystemWeight>
+		<wildGroupSize>1~3</wildGroupSize>
+		<lifeStages>
+			<li>
+				<label>wampap fry</label>
+				<labelPlural>wampap fry</labelPlural>
+				<bodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Wampap/Wampap</texPath>
+					<drawSize>1.2</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Wampap/Dessicated_Wampap</texPath>
+					<drawSize>1.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Wampap/Wampap</texPath>
+					<drawSize>1.7</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>ZWB_Textures/Animals/Wampap/Wampap_Female</texPath>
+					<drawSize>1.7</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Wampap/Dessicated_Wampap</texPath>
+					<drawSize>1.7</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Wampap/Wampap</texPath>
+					<drawSize>2.15</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<femaleGraphicData>
+					<texPath>ZWB_Textures/Animals/Wampap/Wampap_Female</texPath>
+					<drawSize>2.15</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</femaleGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Wampap/Dessicated_Wampap</texPath>
+					<drawSize>2.15</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+
+
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>ZWB_EggWampapFertilized</defName>
+		<label>wampap egg (fert.)</label>
+		<description>A fertilized wampap egg. If all goes well, it should hatch into a baby wampap. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<color>(101,95,62)</color>
+			<drawSize>0.7</drawSize>
+		</graphicData>
+		<statBases>
+			<Nutrition>0.5</Nutrition>
+			<MarketValue>28.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>6</hatcherDaystoHatch>
+				<hatcherPawn>ZWB_Wampap</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>ZWB_EggWampapUnfertilized</defName>
+		<label>wampap egg (unfert.)</label>
+		<description>An unfertilized wampap egg. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<color>(85,84,64)</color>
+			<drawSize>0.7</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>17.0</MarketValue>
+			<Nutrition>0.5</Nutrition>
+		</statBases>
+	</ThingDef>
+
+
+</Defs>
+

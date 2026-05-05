@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>ZWB_Glurble</defName>
+		<label>glurble</label>
+		<description>PLACEHOLDER: mid sized, solitary, not a predator</description>
+		<statBases>
+			<MoveSpeed>4.6</MoveSpeed>
+			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
+			<ComfyTemperatureMax>40</ComfyTemperatureMax>
+			<MarketValue>350</MarketValue>
+			<FilthRate>16</FilthRate>
+			<Wildness>0.7</Wildness>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>ZWB_EggGlurbleUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>ZWB_EggGlurbleFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>5.1</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1~2</eggCountRange>
+			</li>
+		</comps>
+		<race>
+			<body>ZWB_BipedLandFish</body>
+			<herdAnimal>false</herdAnimal>
+			<baseBodySize>1.0</baseBodySize>
+			<baseHungerRate>0.2</baseHungerRate>
+			<baseHealthScale>0.85</baseHealthScale>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<leatherDef>Leather_Plain</leatherDef>
+			<!-- <useMeatFrom>ZWB_Jesterfish</useMeatFrom> -->
+			<trainability>None</trainability>
+			<roamMtbDays>2</roamMtbDays>
+			<lifeExpectancy>17</lifeExpectancy>
+			<manhunterOnDamageChance>0.1</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.1</manhunterOnTameFailChance>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.13</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.28</minAge>
+					<soundWounded>ZWB_SmallFish_Wounded</soundWounded>
+					<soundDeath>ZWB_SmallFish_Death</soundDeath>
+					<soundCall>ZWB_SmallFish_Call</soundCall>
+					<soundAngry>ZWB_SmallFish_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+			<soundEating>Herbivore_Eat</soundEating>
+			<packAnimal>false</packAnimal>
+		</race>
+		<tradeTags>
+			<li>AnimalCommon</li>
+		</tradeTags>
+		<tools>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2.0</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2.6</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+			<li>
+				<label>left flipper</label>
+				<labelNoLocation>flipper</labelNoLocation>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>ZWB_FrontLeftFlipper</linkedBodyPartsGroup>
+			</li>
+			<li>
+				<label>right flipper</label>
+				<labelNoLocation>flipper</labelNoLocation>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>ZWB_FrontRightFlipper</linkedBodyPartsGroup>
+			</li>
+		</tools>
+	</ThingDef>
+
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>ZWB_Glurble</defName>
+		<label>glurble</label>
+		<race>ZWB_Glurble</race>
+		<combatPower>50</combatPower>
+		<ecoSystemWeight>0.5</ecoSystemWeight>
+		<!-- <wildGroupSize>1~2</wildGroupSize> -->
+		<lifeStages>
+			<li>
+				<label>glurble fry</label>
+				<labelPlural>glurble fry</labelPlural>
+				<bodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Glurble/Glurble</texPath>
+					<drawSize>1.0</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Glurble/Dessicated_Glurble</texPath>
+					<drawSize>1.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Glurble/Glurble</texPath>
+					<drawSize>1.3</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.3, 0.3)</volume>
+						<offset>(0,0,-0.3)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Glurble/Dessicated_Glurble</texPath>
+					<drawSize>1.3</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Glurble/Glurble</texPath>
+					<drawSize>1.7</drawSize>
+					<shadowData>
+						<volume>(0.4, 0.4, 0.4)</volume>
+						<offset>(0,0,-0.2)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Glurble/Dessicated_Glurble</texPath>
+					<drawSize>1.7</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+		<alternateGraphicChance>0.5</alternateGraphicChance>
+		<alternateGraphics>
+			<li>
+				<texPath>ZWB_Textures/Animals/Glurble/GlurbleA</texPath>
+				<weight>2</weight>
+			</li>
+			<li>
+				<texPath>ZWB_Textures/Animals/Glurble/GlurbleB</texPath>
+				<weight>1</weight>
+			</li>
+		</alternateGraphics>
+	</PawnKindDef>
+
+
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>ZWB_EggGlurbleFertilized</defName>
+		<label>glurble egg (fert.)</label>
+		<description>A fertilized glurble egg. If all goes well, it should hatch into a baby glurble. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<color>(117,102,69)</color>
+			<drawSize>1.0</drawSize>
+		</graphicData>
+		<!-- <uiIconScale>0.666</uiIconScale> -->
+		<statBases>
+			<Nutrition>0.5</Nutrition>
+			<MarketValue>22.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>6</hatcherDaystoHatch>
+				<hatcherPawn>ZWB_Glurble</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>ZWB_EggGlurbleUnfertilized</defName>
+		<label>glurble egg (unfert.)</label>
+		<description>An unfertilized glurble egg. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+			<color>(94,85,65)</color>
+			<drawSize>1.0</drawSize>
+		</graphicData>
+		<uiIconScale>0.666</uiIconScale>
+		<statBases>
+			<MarketValue>10.0</MarketValue>
+			<Nutrition>0.5</Nutrition>
+		</statBases>
+	</ThingDef>
+
+
+</Defs>
+
