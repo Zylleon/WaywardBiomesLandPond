@@ -155,7 +155,8 @@
 			<!-- large grazers -->
 			<ZWB_Wampap>1.0</ZWB_Wampap>
 			
-			
+			<!-- predators -->
+			<ZWB_Quet>0.1</ZWB_Quet>
 		</wildAnimals>
 		<pollutionWildAnimals MayRequire="Ludeon.RimWorld.Biotech">
 			<WasteRat MayRequire="Ludeon.RimWorld.Biotech">0.1</WasteRat>
