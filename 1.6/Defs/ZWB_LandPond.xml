@@ -154,6 +154,7 @@
 
 			<!-- large grazers -->
 			<ZWB_Wampap>1.0</ZWB_Wampap>
+			<ZWB_Koi>1.0</ZWB_Koi>
 			
 			<!-- predators -->
 			<ZWB_Quet>0.1</ZWB_Quet>

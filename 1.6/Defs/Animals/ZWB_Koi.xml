@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>ZWB_Koi</defName>
+		<label>koi</label>
+		<description>PLACEHOLDER: A mid sized fish. Good pet, hauler. Grazer, large schools. Low wildness.</description>
+		<statBases>
+			<MoveSpeed>4.8</MoveSpeed>
+			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
+			<ComfyTemperatureMax>45</ComfyTemperatureMax>
+			<MarketValue>300</MarketValue>
+			<Wildness>0.05</Wildness>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>ZWB_EggKoiUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>ZWB_EggKoiFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>1</eggFertilizationCountMax>
+				<eggLayIntervalDays>6</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>1~2</eggCountRange>
+			</li>
+		</comps>
+		<race>
+			<body>ZWB_QuadrupedLandFish</body>
+			<herdAnimal>true</herdAnimal>
+			<!-- <maxPreyBodySize>2.1</maxPreyBodySize> -->
+			<baseBodySize>0.9</baseBodySize>
+			<baseHungerRate>0.27</baseHungerRate>
+			<baseHealthScale>0.8</baseHealthScale>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<leatherDef>Leather_Plain</leatherDef>
+			<trainability>Advanced</trainability>
+			<!-- <useMeatFrom>ZWB_Jesterfish</useMeatFrom> -->
+			<lifeExpectancy>12</lifeExpectancy>
+			<petness>0.5</petness>
+			<nuzzleMtbHours>24</nuzzleMtbHours>
+			<!-- <manhunterOnTameFailChance>0.20</manhunterOnTameFailChance> -->
+			<!-- <manhunterOnDamageChance>0.5</manhunterOnDamageChance> -->
+			<!-- <gestationPeriodDays>10</gestationPeriodDays> -->
+			<specialTrainables>
+				<li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
+			</specialTrainables>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2, 1.7)</li>
+					<li>(2.5, 0.7)</li>
+					<li>(3, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.20</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.40</minAge>
+					<soundWounded>ZWB_Jesterfish_Wounded</soundWounded>
+					<soundDeath>ZWB_Jesterfish_Death</soundDeath>
+					<soundCall>ZWB_Jesterfish_Call</soundCall>
+					<soundAngry>ZWB_Jesterfish_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+			<soundEating>PredatorSmall_Eat</soundEating>
+			<packAnimal>false</packAnimal>
+			<predator>false</predator>
+
+		</race>
+		<tradeTags>
+			<li>AnimalUncommon</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+		<tools>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>11</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.7</chanceFactor>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>8</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>11</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>left flipper</label>
+				<labelNoLocation>flipper</labelNoLocation>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>ZWB_FrontLeftFlipper</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>10</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right flipper</label>
+				<labelNoLocation>flipper</labelNoLocation>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>7</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>ZWB_FrontRightFlipper</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>10</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+		</tools>
+	</ThingDef>
+
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>ZWB_Koi</defName>
+		<label>koi</label>
+		<race>ZWB_Koi</race>
+		<combatPower>55</combatPower>
+		<ecoSystemWeight>0.52</ecoSystemWeight>
+		<wildGroupSize>4~13</wildGroupSize>
+		<lifeStages>
+			<li>
+				<label>koi fry</label>
+				<labelPlural>koi fry</labelPlural>
+				<bodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Koi/Koi</texPath>
+					<drawSize>0.8</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Koi/Dessicated_Koi</texPath>
+					<drawSize>0.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Koi/Koi</texPath>
+					<drawSize>1.2</drawSize>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Koi/Dessicated_Koi</texPath>
+					<drawSize>1.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Koi/Koi</texPath>
+					<drawSize>1.55</drawSize>
+					<shadowData>
+						<volume>(0.3, 0.4, 0.3)</volume>
+						<offset>(0,0,-0.15)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>ZWB_Textures/Animals/Koi/Dessicated_Koi</texPath>
+					<drawSize>1.55</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+		<alternateGraphicChance>0.95</alternateGraphicChance>
+		<alternateGraphics>
+			<li> <!-- gold with white fins -->
+				<texPath>ZWB_Textures/Animals/Koi/KoiA</texPath>
+				<weight>1</weight>
+			</li>
+			<li> <!-- white with red back -->
+				<texPath>ZWB_Textures/Animals/Koi/KoiB</texPath>
+				<weight>1</weight>
+			</li>
+			<li> <!-- black and orange spots -->
+				<texPath>ZWB_Textures/Animals/Koi/KoiC</texPath>
+				<weight>1</weight>
+			</li>
+			<li> <!-- yellow -->
+				<texPath>ZWB_Textures/Animals/Koi/KoiD</texPath>
+				<weight>1</weight>
+			</li>
+			<li> <!-- black -->
+				<texPath>ZWB_Textures/Animals/Koi/KoiE</texPath>
+				<weight>1</weight>
+			</li>
+			<li> <!-- orange -->
+				<texPath>ZWB_Textures/Animals/Koi/KoiF</texPath>
+				<weight>1</weight>
+			</li>
+			<li> <!-- red -->
+				<texPath>ZWB_Textures/Animals/Koi/KoiG</texPath>
+				<weight>1</weight>
+			</li>
+			<li> <!-- white and orange -->
+				<texPath>ZWB_Textures/Animals/Koi/KoiH</texPath>
+				<weight>1</weight>
+			</li>
+			<li> <!-- snake -->
+				<texPath>ZWB_Textures/Animals/Koi/KoiI</texPath>
+				<weight>1</weight>
+			</li>
+			<li> <!-- red dot, black markings -->
+				<texPath>ZWB_Textures/Animals/Koi/KoiJ</texPath>
+				<weight>1</weight>
+			</li>
+			<li> <!-- white and orange -->
+				<texPath>ZWB_Textures/Animals/Koi/KoiK</texPath>
+				<weight>1</weight>
+			</li>
+		</alternateGraphics>
+	</PawnKindDef>
+
+
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>ZWB_EggKoiFertilized</defName>
+		<label>koi egg (fert.)</label>
+		<description>A fertilized koi egg. If all goes well, it should hatch into a baby koi. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<color>(153,161,77)</color>
+			<drawSize>1.1</drawSize>
+		</graphicData>
+		<!-- <uiIconScale>0.666</uiIconScale> -->
+		<statBases>
+			<Nutrition>0.5</Nutrition>
+			<MarketValue>24.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>6</hatcherDaystoHatch>
+				<hatcherPawn>ZWB_Koi</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+
+	<ThingDef ParentName="EggUnfertBase">
+		<defName>ZWB_EggKoiUnfertilized</defName>
+		<label>koi egg (unfert.)</label>
+		<description>An unfertilized koi egg. It can be eaten raw, but it's much better cooked.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+			<color>(115,122,66)</color>
+			<drawSize>1.1</drawSize>
+		</graphicData>
+		<uiIconScale>0.666</uiIconScale>
+		<statBases>
+			<MarketValue>12.0</MarketValue>
+			<Nutrition>0.5</Nutrition>
+		</statBases>
+	</ThingDef>
+
+
+
+
+</Defs>
+
