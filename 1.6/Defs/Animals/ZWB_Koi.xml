@@ -207,7 +207,7 @@
 		<alternateGraphics>
 			<li> <!-- gold with white fins -->
 				<texPath>ZWB_Textures/Animals/Koi/KoiA</texPath>
-				<weight>1</weight>
+				<weight>0.5</weight>
 			</li>
 			<li> <!-- white with red back -->
 				<texPath>ZWB_Textures/Animals/Koi/KoiB</texPath>
@@ -235,19 +235,27 @@
 			</li>
 			<li> <!-- white and orange -->
 				<texPath>ZWB_Textures/Animals/Koi/KoiH</texPath>
-				<weight>1</weight>
+				<weight>2</weight>
 			</li>
 			<li> <!-- snake -->
 				<texPath>ZWB_Textures/Animals/Koi/KoiI</texPath>
-				<weight>1</weight>
+				<weight>0.3</weight>
 			</li>
 			<li> <!-- red dot, black markings -->
 				<texPath>ZWB_Textures/Animals/Koi/KoiJ</texPath>
-				<weight>1</weight>
+				<weight>0.8</weight>
 			</li>
 			<li> <!-- white and orange -->
 				<texPath>ZWB_Textures/Animals/Koi/KoiK</texPath>
-				<weight>1</weight>
+				<weight>2</weight>
+			</li>
+			<li> <!-- white and yellow -->
+				<texPath>ZWB_Textures/Animals/Koi/KoiL</texPath>
+				<weight>0.3</weight>
+			</li>
+			<li> <!-- red and black -->
+				<texPath>ZWB_Textures/Animals/Koi/KoiM</texPath>
+				<weight>0.5</weight>
 			</li>
 		</alternateGraphics>
 	</PawnKindDef>
