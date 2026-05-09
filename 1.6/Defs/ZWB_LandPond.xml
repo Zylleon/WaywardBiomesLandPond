@@ -154,7 +154,8 @@
 
 			<!-- large grazers -->
 			<ZWB_Wampap>1.0</ZWB_Wampap>
-			<ZWB_Koi>1.0</ZWB_Koi>
+			<ZWB_Koi>1.0</ZWB_Koi>			<!-- hauler -->
+			<ZWB_Catfish>1.0</ZWB_Catfish>	<!-- pack animal, very large -->
 			
 			<!-- predators -->
 			<ZWB_Quet>0.1</ZWB_Quet>

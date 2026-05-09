@@ -211,7 +211,7 @@
 			</li>
 			<li> <!-- white with red back -->
 				<texPath>ZWB_Textures/Animals/Koi/KoiB</texPath>
-				<weight>1</weight>
+				<weight>1.5</weight>
 			</li>
 			<li> <!-- black and orange spots -->
 				<texPath>ZWB_Textures/Animals/Koi/KoiC</texPath>
