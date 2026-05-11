@@ -4,20 +4,21 @@
 
 
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>ZWB_Wampap</defName>
-		<label>wampap</label>
+		<defName>ZWB_Wampler</defName>
+		<label>wampler</label>
 		<description>PLACEHOLDER - medium-large, greenish brown fish. Herbivore.</description>
 		<statBases>
 			<MoveSpeed>4.4</MoveSpeed>
 			<ComfyTemperatureMin>-20</ComfyTemperatureMin>
 			<ComfyTemperatureMax>40</ComfyTemperatureMax>
 			<MarketValue>190</MarketValue>
+			<MarketValue>190</MarketValue>
 			<Wildness>0.3</Wildness>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_EggLayer">
-				<eggUnfertilizedDef>ZWB_EggWampapUnfertilized</eggUnfertilizedDef>
-				<eggFertilizedDef>ZWB_EggWampapFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>ZWB_EggWamplerUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>ZWB_EggWamplerFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>4.6</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
@@ -110,28 +111,28 @@
 
 
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>ZWB_Wampap</defName>
-		<label>wampap</label>
-		<race>ZWB_Wampap</race>
+		<defName>ZWB_Wampler</defName>
+		<label>wampler</label>
+		<race>ZWB_Wampler</race>
 		<combatPower>60</combatPower>
 		<ecoSystemWeight>0.9</ecoSystemWeight>
 		<wildGroupSize>1~3</wildGroupSize>
 		<lifeStages>
 			<li>
-				<label>wampap fry</label>
-				<labelPlural>wampap fry</labelPlural>
+				<label>wampler fry</label>
+				<labelPlural>wampler fry</labelPlural>
 				<bodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Wampap/Wampap</texPath>
+					<texPath>ZWB_Textures/Animals/Wampler/Wampler</texPath>
 					<drawSize>1.2</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Wampap/Dessicated_Wampap</texPath>
+					<texPath>ZWB_Textures/Animals/Wampler/Dessicated_Wampler</texPath>
 					<drawSize>1.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Wampap/Wampap</texPath>
+					<texPath>ZWB_Textures/Animals/Wampler/Wampler</texPath>
 					<drawSize>1.7</drawSize>
 					<shadowData>
 						<volume>(0.25, 0.3, 0.25)</volume>
@@ -139,7 +140,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>ZWB_Textures/Animals/Wampap/Wampap_Female</texPath>
+					<texPath>ZWB_Textures/Animals/Wampler/Wampler_Female</texPath>
 					<drawSize>1.7</drawSize>
 					<shadowData>
 						<volume>(0.25, 0.3, 0.25)</volume>
@@ -147,13 +148,13 @@
 					</shadowData>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Wampap/Dessicated_Wampap</texPath>
+					<texPath>ZWB_Textures/Animals/Wampler/Dessicated_Wampler</texPath>
 					<drawSize>1.7</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Wampap/Wampap</texPath>
+					<texPath>ZWB_Textures/Animals/Wampler/Wampler</texPath>
 					<drawSize>2.15</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.4, 0.3)</volume>
@@ -161,7 +162,7 @@
 					</shadowData>
 				</bodyGraphicData>
 				<femaleGraphicData>
-					<texPath>ZWB_Textures/Animals/Wampap/Wampap_Female</texPath>
+					<texPath>ZWB_Textures/Animals/Wampler/Wampler_Female</texPath>
 					<drawSize>2.15</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.4, 0.3)</volume>
@@ -169,7 +170,7 @@
 					</shadowData>
 				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Wampap/Dessicated_Wampap</texPath>
+					<texPath>ZWB_Textures/Animals/Wampler/Dessicated_Wampler</texPath>
 					<drawSize>2.15</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
@@ -179,9 +180,9 @@
 
 
 	<ThingDef ParentName="EggFertBase">
-		<defName>ZWB_EggWampapFertilized</defName>
-		<label>wampap egg (fert.)</label>
-		<description>A fertilized wampap egg. If all goes well, it should hatch into a baby wampap. It can be eaten raw, but it's much better cooked.</description>
+		<defName>ZWB_EggWamplerFertilized</defName>
+		<label>wampler egg (fert.)</label>
+		<description>A fertilized wampler egg. If all goes well, it should hatch into a baby wampler. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
 			<color>(101,95,62)</color>
@@ -194,7 +195,7 @@
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>6</hatcherDaystoHatch>
-				<hatcherPawn>ZWB_Wampap</hatcherPawn>
+				<hatcherPawn>ZWB_Wampler</hatcherPawn>
 			</li>
 		</comps>
 	</ThingDef>
@@ -202,9 +203,9 @@
 
 
 	<ThingDef ParentName="EggUnfertBase">
-		<defName>ZWB_EggWampapUnfertilized</defName>
-		<label>wampap egg (unfert.)</label>
-		<description>An unfertilized wampap egg. It can be eaten raw, but it's much better cooked.</description>
+		<defName>ZWB_EggWamplerUnfertilized</defName>
+		<label>wampler egg (unfert.)</label>
+		<description>An unfertilized wampler egg. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
 			<color>(85,84,64)</color>

@@ -153,12 +153,13 @@
 
 
 			<!-- large grazers -->
-			<ZWB_Wampap>1.0</ZWB_Wampap>
-			<ZWB_Koi>1.0</ZWB_Koi>			<!-- hauler -->
+			<ZWB_Wampler>1.0</ZWB_Wampler>
+			<ZWB_Terrakoi>1.0</ZWB_Terrakoi>			<!-- hauler -->
 			<ZWB_Catfish>1.0</ZWB_Catfish>	<!-- pack animal, very large -->
 			
 			<!-- predators -->
 			<ZWB_Quet>0.1</ZWB_Quet>
+			
 		</wildAnimals>
 		<pollutionWildAnimals MayRequire="Ludeon.RimWorld.Biotech">
 			<WasteRat MayRequire="Ludeon.RimWorld.Biotech">0.1</WasteRat>
