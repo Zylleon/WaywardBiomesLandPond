@@ -157,6 +157,12 @@
 			<ZWB_Terrakoi>1.0</ZWB_Terrakoi>			<!-- hauler -->
 			<ZWB_Catfish>1.0</ZWB_Catfish>	<!-- pack animal, very large -->
 			
+			
+			<!-- predator/grazers -->
+			<ZWB_GoldenGaup>0.1</ZWB_GoldenGaup>
+			<ZWB_SpeckledGaup>0.1</ZWB_SpeckledGaup>
+			
+			
 			<!-- predators -->
 			<ZWB_Quet>0.1</ZWB_Quet>
 			
