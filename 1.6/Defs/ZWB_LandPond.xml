@@ -159,8 +159,8 @@
 			
 			
 			<!-- predator/grazers -->
-			<ZWB_GoldenGaup>0.1</ZWB_GoldenGaup>
-			<ZWB_SpeckledGaup>0.1</ZWB_SpeckledGaup>
+			<ZWB_GoldenGaup>0.2</ZWB_GoldenGaup>
+			<ZWB_SpeckledGaup>0.2</ZWB_SpeckledGaup>
 			
 			
 			<!-- predators -->
