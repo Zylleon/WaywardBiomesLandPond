@@ -164,7 +164,8 @@
 			
 			
 			<!-- predators -->
-			<ZWB_Quet>0.1</ZWB_Quet>
+			<ZWB_Quet>0.1</ZWB_Quet> 		<!-- mid sized -->
+			<ZWB_Awanna>0.1</ZWB_Awanna> 	<!-- pack animal, very large -->
 			
 		</wildAnimals>
 		<pollutionWildAnimals MayRequire="Ludeon.RimWorld.Biotech">
