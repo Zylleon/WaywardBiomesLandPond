@@ -95,5 +95,33 @@
 
 
 
+	<ThingDef ParentName="PlantBase">
+		<defName>ZWB_Dross</defName>
+		<label>dross</label>
+		<description>PLACEHOLDER - tiny, green-yellow, mosslike, small clusters</description>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Beauty>1</Beauty>
+			<Nutrition>0.25</Nutrition>
+		</statBases>
+		<pathCost>22</pathCost>
+		<graphicData>
+			<texPath>ZWB_Textures/Plants/Dross</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
+		<ingestible/>
+		<plant>
+			<fertilitySensitivity>0.0</fertilitySensitivity>
+			<growDays>3.5</growDays>
+			<fertilityMin>0.05</fertilityMin>
+			<maxMeshCount>4</maxMeshCount>
+			<visualSizeRange>0.4~.7</visualSizeRange>
+			<topWindExposure>0</topWindExposure>
+			<wildClusterRadius>3</wildClusterRadius>
+			<wildClusterWeight>50</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
 </Defs>
 
