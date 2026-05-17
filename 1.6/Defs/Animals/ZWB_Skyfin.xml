@@ -4,35 +4,38 @@
 
 
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>ZWB_Wampler</defName>
-		<label>wampler</label>
-		<description>PLACEHOLDER - medium-large, greenish brown fish. Herbivore.</description>
+		<defName>ZWB_Skyfin</defName>
+		<label>skyfin</label>
+		<description>PLACEHOLDER - medium-small herbivore.</description>
 		<statBases>
-			<MoveSpeed>4.4</MoveSpeed>
-			<ComfyTemperatureMin>-20</ComfyTemperatureMin>
-			<ComfyTemperatureMax>40</ComfyTemperatureMax>
+			<MoveSpeed>4.0</MoveSpeed>
+			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
+			<ComfyTemperatureMax>50</ComfyTemperatureMax>
 			<MarketValue>190</MarketValue>
-			<Wildness>0.3</Wildness>
+			<Wildness>0.1</Wildness>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_EggLayer">
-				<eggUnfertilizedDef>ZWB_EggWamplerUnfertilized</eggUnfertilizedDef>
-				<eggFertilizedDef>ZWB_EggWamplerFertilized</eggFertilizedDef>
+				<eggUnfertilizedDef>ZWB_EggSkyfinUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>ZWB_EggSkyfinFertilized</eggFertilizedDef>
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
-				<eggLayIntervalDays>4.6</eggLayIntervalDays>
+				<eggLayIntervalDays>5.6</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-				<eggCountRange>1~2</eggCountRange>
+				<eggCountRange>1~1</eggCountRange>
 			</li>
 		</comps>
 		<race>
 			<body>ZWB_QuadrupedLandFish</body>
 			<herdAnimal>true</herdAnimal>
-			<baseBodySize>2.0</baseBodySize>
-			<baseHungerRate>0.55</baseHungerRate>
-			<baseHealthScale>1.05</baseHealthScale>
+			<baseBodySize>0.6</baseBodySize>
+			<baseHungerRate>0.15</baseHungerRate>
+			<baseHealthScale>0.7</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Plain</leatherDef>
+			<roamMtbDays>2</roamMtbDays>
 			<trainability>None</trainability>
+			<manhunterOnTameFailChance>0.02</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.1</manhunterOnDamageChance>
 			<!-- <useMeatFrom>ZWB_Jesterfish</useMeatFrom> -->
 			<lifeExpectancy>16</lifeExpectancy>
 			<lifeStageAges>
@@ -42,11 +45,11 @@
 				</li>
 				<li>
 					<def>AnimalJuvenile</def>
-					<minAge>0.15</minAge>
+					<minAge>0.1</minAge>
 				</li>
 				<li>
 					<def>AnimalAdult</def>
-					<minAge>0.33</minAge>
+					<minAge>0.23</minAge>
 					<soundWounded>ZWB_Melu_Wounded</soundWounded>
 					<soundDeath>ZWB_Melu_Death</soundDeath>
 					<soundCall>ZWB_Melu_Call</soundCall>
@@ -67,8 +70,8 @@
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>12</power>
-				<cooldownTime>2.6</cooldownTime>
+				<power>8</power>
+				<cooldownTime>2.0</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<chanceFactor>0.7</chanceFactor>
 			</li>
@@ -77,7 +80,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>11</power>
+				<power>5.5</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
 				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
@@ -90,7 +93,7 @@
 					<li>Blunt</li>
 					<li>Poke</li>
 				</capacities>
-				<power>10</power>
+				<power>6</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>ZWB_FrontLeftFlipper</linkedBodyPartsGroup>
 			</li>
@@ -101,7 +104,7 @@
 					<li>Blunt</li>
 					<li>Poke</li>
 				</capacities>
-				<power>10</power>
+				<power>6</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>ZWB_FrontRightFlipper</linkedBodyPartsGroup>
 			</li>
@@ -110,91 +113,86 @@
 
 
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>ZWB_Wampler</defName>
-		<label>wampler</label>
-		<race>ZWB_Wampler</race>
-		<combatPower>60</combatPower>
-		<ecoSystemWeight>0.9</ecoSystemWeight>
-		<wildGroupSize>1~3</wildGroupSize>
+		<defName>ZWB_Skyfin</defName>
+		<label>skyfin</label>
+		<race>ZWB_Skyfin</race>
+		<combatPower>40</combatPower>
+		<ecoSystemWeight>0.4</ecoSystemWeight>
+		<wildGroupSize>2~5</wildGroupSize>
 		<lifeStages>
 			<li>
-				<label>wampler fry</label>
-				<labelPlural>wampler fry</labelPlural>
+				<label>skyfin fry</label>
+				<labelPlural>skyfin fry</labelPlural>
 				<bodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Wampler/Wampler</texPath>
-					<drawSize>1.2</drawSize>
+					<texPath>ZWB_Textures/Animals/Skyfin/Skyfin</texPath>
+					<drawSize>0.7</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Wampler/Dessicated_Wampler</texPath>
-					<drawSize>1.2</drawSize>
+					<texPath>ZWB_Textures/Animals/Skyfin/Dessicated_Skyfin</texPath>
+					<drawSize>0.7</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Wampler/Wampler</texPath>
-					<drawSize>1.7</drawSize>
+					<texPath>ZWB_Textures/Animals/Skyfin/Skyfin</texPath>
+					<drawSize>1.0</drawSize>
 					<shadowData>
 						<volume>(0.25, 0.3, 0.25)</volume>
 						<offset>(0,0,-0.15)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<femaleGraphicData>
-					<texPath>ZWB_Textures/Animals/Wampler/Wampler_Female</texPath>
-					<drawSize>1.7</drawSize>
-					<shadowData>
-						<volume>(0.25, 0.3, 0.25)</volume>
-						<offset>(0,0,-0.15)</offset>
-					</shadowData>
-				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Wampler/Dessicated_Wampler</texPath>
-					<drawSize>1.7</drawSize>
+					<texPath>ZWB_Textures/Animals/Skyfin/Dessicated_Skyfin</texPath>
+					<drawSize>1.0</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Wampler/Wampler</texPath>
-					<drawSize>2.15</drawSize>
+					<texPath>ZWB_Textures/Animals/Skyfin/Skyfin</texPath>
+					<drawSize>1.3</drawSize>
 					<shadowData>
 						<volume>(0.3, 0.4, 0.3)</volume>
 						<offset>(0,0,-0.15)</offset>
 					</shadowData>
 				</bodyGraphicData>
-				<femaleGraphicData>
-					<texPath>ZWB_Textures/Animals/Wampler/Wampler_Female</texPath>
-					<drawSize>2.15</drawSize>
-					<shadowData>
-						<volume>(0.3, 0.4, 0.3)</volume>
-						<offset>(0,0,-0.15)</offset>
-					</shadowData>
-				</femaleGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>ZWB_Textures/Animals/Wampler/Dessicated_Wampler</texPath>
-					<drawSize>2.15</drawSize>
+					<texPath>ZWB_Textures/Animals/Skyfin/Dessicated_Skyfin</texPath>
+					<drawSize>1.3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
+		<alternateGraphicChance>0.7</alternateGraphicChance>			<!-- mid body dark fin -->
+		<alternateGraphics>
+			<li>			<!-- dark body mid fin -->
+				<texPath>ZWB_Textures/Animals/Skyfin/SkyfinA</texPath>
+				<weight>1</weight>
+			</li>
+			<li>			<!-- light body mid fin -->
+				<texPath>ZWB_Textures/Animals/Skyfin/SkyfinB</texPath>
+				<weight>1</weight>
+			</li>
+		</alternateGraphics>
 	</PawnKindDef>
 
 
 
 	<ThingDef ParentName="EggFertBase">
-		<defName>ZWB_EggWamplerFertilized</defName>
-		<label>wampler egg (fert.)</label>
-		<description>A fertilized wampler egg. If all goes well, it should hatch into a baby wampler. It can be eaten raw, but it's much better cooked.</description>
+		<defName>ZWB_EggSkyfinFertilized</defName>
+		<label>skyfin egg (fert.)</label>
+		<description>A fertilized skyfin egg. If all goes well, it should hatch into a baby skyfin. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
-			<color>(101,95,62)</color>
-			<drawSize>1.2</drawSize>
+			<color>(145,173,189)</color>
+			<drawSize>0.7</drawSize>
 		</graphicData>
 		<statBases>
 			<Nutrition>0.5</Nutrition>
-			<MarketValue>28.0</MarketValue>
+			<MarketValue>16.0</MarketValue>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Hatcher">
-				<hatcherDaystoHatch>6</hatcherDaystoHatch>
-				<hatcherPawn>ZWB_Wampler</hatcherPawn>
+				<hatcherDaystoHatch>5</hatcherDaystoHatch>
+				<hatcherPawn>ZWB_Skyfin</hatcherPawn>
 			</li>
 		</comps>
 	</ThingDef>
@@ -202,16 +200,16 @@
 
 
 	<ThingDef ParentName="EggUnfertBase">
-		<defName>ZWB_EggWamplerUnfertilized</defName>
-		<label>wampler egg (unfert.)</label>
-		<description>An unfertilized wampler egg. It can be eaten raw, but it's much better cooked.</description>
+		<defName>ZWB_EggSkyfinUnfertilized</defName>
+		<label>skyfin egg (unfert.)</label>
+		<description>An unfertilized skyfin egg. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
-			<color>(85,84,64)</color>
-			<drawSize>1.2</drawSize>
+			<color>(125,144,156)</color>
+			<drawSize>0.7</drawSize>
 		</graphicData>
 		<statBases>
-			<MarketValue>17.0</MarketValue>
+			<MarketValue>9.0</MarketValue>
 			<Nutrition>0.5</Nutrition>
 		</statBases>
 	</ThingDef>
