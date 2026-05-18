@@ -151,13 +151,13 @@
 			<!-- small grazers -->
 			<ZWB_Dippet>1.0</ZWB_Dippet>
 			<ZWB_Glurble>1.0</ZWB_Glurble>
-			<ZWB_Skyfin>1.0</ZWB_Skyfin>
-			<ZWB_Flupper>1.0</ZWB_Flupper>
+			<ZWB_Skyfin>0.5</ZWB_Skyfin>
+			<ZWB_Flupper>0.5</ZWB_Flupper>
 
 
 			<!-- large grazers -->
 			<ZWB_Wampler>1.0</ZWB_Wampler>
-			<ZWB_Terrakoi>1.0</ZWB_Terrakoi>			<!-- hauler -->
+			<ZWB_Terrakoi>0.5</ZWB_Terrakoi>			<!-- hauler -->
 			<ZWB_Catfish>1.0</ZWB_Catfish>	<!-- pack animal, very large -->
 			
 			
