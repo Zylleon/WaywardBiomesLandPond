@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+
+	<ThingDef ParentName="PlantBase">
+		<defName>ZWB_LotusBloom</defName>
+		<label>lotus bloom</label>
+		<description>PLACEHOLDER - large flowers that will go to seed and be harvested for lotus seeds. Lotus seeds give a health boost if eaten raw. Quite pretty.</description>
+		<selectable>true</selectable>
+		<neverMultiSelect>false</neverMultiSelect>
+		<altitudeLayer>Building</altitudeLayer>
+		<statBases>
+			<Beauty>12</Beauty>
+			<BeautyOutdoors>16</BeautyOutdoors>
+			<MaxHitPoints>80</MaxHitPoints>
+			<Nutrition>1.25</Nutrition>
+		</statBases>
+		<pathCost>18</pathCost>
+		<graphicData>
+			<texPath>ZWB_Textures/Plants/LotusBloom</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.1, 0.35, 0.1)</volume>
+				<offset>(0,0,-0.42)</offset>
+			</shadowData>
+		</graphicData>
+		<ingestible/>
+		<plant>
+			<fertilitySensitivity>0.8</fertilitySensitivity>
+			<growDays>6.5</growDays>
+			<immatureGraphicPath>ZWB_Textures/Plants/LotusBloom_Immature</immatureGraphicPath>
+			<fertilityMin>0.25</fertilityMin>
+			<!-- <maxMeshCount>9</maxMeshCount> -->
+			<visualSizeRange>0.5~2.1</visualSizeRange>
+			<topWindExposure>0.5</topWindExposure>
+			<!-- <wildClusterRadius>4</wildClusterRadius> -->
+			<!-- <wildClusterWeight>200</wildClusterWeight> -->
+			<harvestWork>250</harvestWork>
+			<purpose>Food</purpose>
+			<harvestYield>3</harvestYield>
+			<harvestedThingDef>ZWB_LotusSeeds</harvestedThingDef>
+			<harvestTag>Standard</harvestTag>
+			<harvestMinGrowth>0.9</harvestMinGrowth>
+		</plant>
+	</ThingDef>
+
+
+
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>ZWB_LotusSeeds</defName>
+		<label>lotus seeds</label>
+		<description>PLACEHOLDER - gives health bost if eaten raw</description>
+		<graphicData>
+			<texPath>ZWB_Textures/Things/LotusSeeds</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>9</MarketValue>
+			<FoodPoisonChanceFixedHuman>0.002</FoodPoisonChanceFixedHuman>
+			<Mass>0.025</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>18</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<ingestible>
+			<preferability>MealFine</preferability>
+			<tasteThought/>
+			<foodType>VegetableOrFruit</foodType>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>ZWB_LotusSeedHigh</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+	</ThingDef>
+
+
+
+	<HediffDef>
+		<defName>ZWB_LotusSeedHigh</defName>
+		<label>lotus vitality</label>
+		<description>Invigorated by lotus seeds. Gives a boost to healing and immunity.</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<maxSeverity>1.0</maxSeverity>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-1.23</severityPerDay>
+				<showHoursToRecover>true</showHoursToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<painFactor>0.95</painFactor>
+				<naturalHealingFactor>1.05</naturalHealingFactor>
+				<statOffsets>
+					<ImmunityGainSpeed>1.1</ImmunityGainSpeed>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+
+</Defs>
+

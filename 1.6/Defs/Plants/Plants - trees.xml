@@ -15,6 +15,10 @@
 		<graphicData>
 			<texPath>ZWB_Textures/Plants/GiantLotus</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.1, 0.35, 0.1)</volume>
+				<offset>(0,0,-0.42)</offset>
+			</shadowData>
 		</graphicData>
 		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
 		<ingestible/>
