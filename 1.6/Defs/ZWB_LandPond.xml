@@ -158,12 +158,17 @@
 			<!-- large grazers -->
 			<ZWB_Wampler>1.0</ZWB_Wampler>
 			<ZWB_Terrakoi>0.5</ZWB_Terrakoi>			<!-- hauler -->
-			<ZWB_Catfish>1.0</ZWB_Catfish>	<!-- pack animal, very large -->
+			<ZWB_Catfish>1.0</ZWB_Catfish>				<!-- pack animal, very large -->
+			
+			
+			<!-- scavengers -->
+			<ZWB_HardbackedSnop>0.5</ZWB_HardbackedSnop>		<!-- smaller pack animal, fighter -->
 			
 			
 			<!-- predator/grazers -->
 			<ZWB_GoldenGaup>0.2</ZWB_GoldenGaup>
 			<ZWB_SpeckledGaup>0.2</ZWB_SpeckledGaup>
+			
 			
 			
 			<!-- predators -->
