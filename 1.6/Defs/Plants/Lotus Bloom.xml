@@ -30,11 +30,9 @@
 			<growDays>6.5</growDays>
 			<immatureGraphicPath>ZWB_Textures/Plants/LotusBloom_Immature</immatureGraphicPath>
 			<fertilityMin>0.25</fertilityMin>
-			<!-- <maxMeshCount>9</maxMeshCount> -->
-			<visualSizeRange>0.5~2.1</visualSizeRange>
+			<!-- <visualSizeRange>0.5~2.1</visualSizeRange> -->
+			<visualSizeRange>0.75~3.0</visualSizeRange>
 			<topWindExposure>0.5</topWindExposure>
-			<!-- <wildClusterRadius>4</wildClusterRadius> -->
-			<!-- <wildClusterWeight>200</wildClusterWeight> -->
 			<harvestWork>250</harvestWork>
 			<purpose>Food</purpose>
 			<harvestYield>3</harvestYield>

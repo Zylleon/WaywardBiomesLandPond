@@ -13,8 +13,8 @@
 	<plantDef>ZWB_LotusBloom</plantDef>
 
 	<numClusters>3~11</numClusters>
-	<countPerCluster>10~10</countPerCluster>
-	<spawnRadius>4~9</spawnRadius>
+	<countPerCluster>8~23</countPerCluster>
+	<spawnRadius>4~11</spawnRadius>
     <baseChance>1.0</baseChance>
     <letterLabel>Lotus bloom</letterLabel>
     <letterText>Several clusters of lotus flowers are blooming! If you wait for the flowers to go to seed, they can be harvested for delicious, healthy seeds.</letterText>

@@ -105,23 +105,23 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>ZWB_Textures/Animals/HardbackedSnop/HardbackedSnop</texPath>
-					<drawSize>0.9</drawSize>
+					<drawSize>1.2</drawSize>
 					<color>(77,100,136)</color>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>ZWB_Textures/Animals/HardbackedSnop/Dessicated_HardbackedSnop</texPath>
-					<drawSize>0.9</drawSize>
+					<drawSize>1.2</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
 					<texPath>ZWB_Textures/Animals/HardbackedSnop/HardbackedSnop</texPath>
-					<drawSize>1.4</drawSize>
+					<drawSize>1.7</drawSize>
 					<color>(77,100,136)</color>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>ZWB_Textures/Animals/HardbackedSnop/Dessicated_HardbackedSnop</texPath>
-					<drawSize>1.4</drawSize>
+					<drawSize>1.7</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
