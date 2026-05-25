@@ -145,6 +145,10 @@
 			
 			<ZWB_Siltweed>0.5</ZWB_Siltweed>
 			<ZWB_Dross>0.5</ZWB_Dross>
+			
+			<!-- harvestable -->
+			<ZWB_WaterChestnutPlant>0.05</ZWB_WaterChestnutPlant>
+			<Plant_HealrootWild>0.02</Plant_HealrootWild>
 
 		</wildPlants>
 		<wildAnimals>
