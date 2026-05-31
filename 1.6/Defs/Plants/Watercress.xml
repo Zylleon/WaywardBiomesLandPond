@@ -34,8 +34,7 @@
 			<maxMeshCount>16</maxMeshCount>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>ZWB_Watercress</harvestedThingDef>
-			<harvestMinGrowth>.8</harvestMinGrowth>
-			<harvestMinGrowth>.8</harvestMinGrowth>
+			<harvestMinGrowth>.85</harvestMinGrowth>
 			<wildClusterRadius>6</wildClusterRadius>
 			<wildClusterWeight>320</wildClusterWeight>
 			<visualSizeRange>0.3~.5</visualSizeRange>

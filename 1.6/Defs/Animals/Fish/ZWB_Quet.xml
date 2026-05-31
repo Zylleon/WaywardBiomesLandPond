@@ -32,7 +32,7 @@
 			<baseHungerRate>0.22</baseHungerRate>
 			<baseHealthScale>1.1</baseHealthScale>
 			<foodType>CarnivoreAnimal</foodType>
-			<leatherDef>Leather_Plain</leatherDef>
+			<leatherDef>ZWB_Leather_MurkyHide</leatherDef>
 			<trainability>Intermediate</trainability>
 			<useMeatFrom>ZWB_Awanna</useMeatFrom>
 			<lifeExpectancy>12</lifeExpectancy>

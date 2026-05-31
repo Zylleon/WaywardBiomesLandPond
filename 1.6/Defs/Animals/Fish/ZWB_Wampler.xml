@@ -31,7 +31,7 @@
 			<baseHungerRate>0.55</baseHungerRate>
 			<baseHealthScale>1.05</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
-			<leatherDef>Leather_Plain</leatherDef>
+			<leatherDef>ZWB_Leather_MurkyHide</leatherDef>
 			<trainability>None</trainability>
 			<useMeatFrom>ZWB_Awanna</useMeatFrom>
 			<lifeExpectancy>16</lifeExpectancy>

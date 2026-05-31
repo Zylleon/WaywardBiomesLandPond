@@ -32,7 +32,7 @@
 			<baseHungerRate>0.4</baseHungerRate>
 			<baseHealthScale>4.0</baseHealthScale>
 			<foodType>CarnivoreAnimal</foodType>
-			<leatherDef>Leather_Plain</leatherDef>
+			<leatherDef>ZWB_Leather_MurkyHide</leatherDef>
 			<trainability>Intermediate</trainability>
 			<meatLabel>lotic fish meat</meatLabel>
 			<lifeExpectancy>34</lifeExpectancy>

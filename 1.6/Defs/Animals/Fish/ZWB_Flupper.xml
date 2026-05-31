@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_Flupper</defName>
 		<label>flupper</label>
-		<description>PLACEHOLDER: A medium-small herbivore. Friendly, pretty, low wildness, high petness. Hauler but small. Medium to large schools. Live birth.</description>
+		<description>PLACEHOLDER: A medium-small herbivore. Friendly, pretty, low wildness, high petness. Many colors. Hauler but small. Medium to large schools. Live birth.</description>
 		<statBases>
 			<MoveSpeed>5.5</MoveSpeed>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
@@ -21,7 +21,7 @@
 			<baseHungerRate>0.12</baseHungerRate>
 			<baseHealthScale>0.5</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
-			<leatherDef>Leather_Plain</leatherDef>
+			<leatherDef>ZWB_Leather_SiltSkin</leatherDef>
 			<trainability>Advanced</trainability>
 			<mateMtbHours>8</mateMtbHours>
 			<nuzzleMtbHours>24</nuzzleMtbHours>

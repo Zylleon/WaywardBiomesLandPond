@@ -31,7 +31,7 @@
 			<baseHungerRate>0.15</baseHungerRate>
 			<baseHealthScale>0.7</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
-			<leatherDef>Leather_Plain</leatherDef>
+			<leatherDef>ZWB_Leather_SiltSkin</leatherDef>
 			<roamMtbDays>2</roamMtbDays>
 			<trainability>None</trainability>
 			<manhunterOnTameFailChance>0.0</manhunterOnTameFailChance>

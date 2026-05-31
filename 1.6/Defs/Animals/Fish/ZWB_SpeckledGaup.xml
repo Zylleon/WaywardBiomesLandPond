@@ -27,18 +27,16 @@
 		<race>
 			<body>ZWB_QuadrupedLandFish</body>
 			<herdAnimal>true</herdAnimal>
-			<!-- <maxPreyBodySize>2.1</maxPreyBodySize> -->
 			<baseBodySize>1.1</baseBodySize>
 			<baseHungerRate>0.26</baseHungerRate>
 			<baseHealthScale>1.25</baseHealthScale>
 			<foodType>OmnivoreRoughAnimal</foodType>
-			<leatherDef>Leather_Plain</leatherDef>
+			<leatherDef>ZWB_Leather_MurkyHide</leatherDef>
 			<trainability>Advanced</trainability>
 			<useMeatFrom>ZWB_Awanna</useMeatFrom>
 			<lifeExpectancy>12</lifeExpectancy>
 			<manhunterOnTameFailChance>0.15</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.15</manhunterOnDamageChance>
-			<!-- <gestationPeriodDays>10</gestationPeriodDays> -->
 			<specialTrainables>
 				<li MayRequire="Ludeon.RimWorld.Odyssey">AttackTarget</li>
 			</specialTrainables>
