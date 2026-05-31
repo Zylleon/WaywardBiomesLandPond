@@ -27,11 +27,11 @@
 			<growDays>11</growDays>
 			<fertilityMin>0.25</fertilityMin>
 			<!-- <maxMeshCount>9</maxMeshCount> -->
-			<visualSizeRange>0.5~2.1</visualSizeRange>
+			<visualSizeRange>0.5~2.4</visualSizeRange>
 			<topWindExposure>0.5</topWindExposure>
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>200</wildClusterWeight>
-			<harvestYield>17</harvestYield>
+			<harvestYield>14</harvestYield>
 		</plant>
 	</ThingDef>
 

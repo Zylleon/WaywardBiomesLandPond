@@ -3,8 +3,8 @@
 
 
 	<BiomeDef>
-		<defName>ZWB_LandPond</defName>
-		<label>land pond</label>
+		<defName>ZWB_LotusWilds</defName>
+		<label>lotus wilds</label>
 		<description>The remnants of what was once a pond. Over time, the waters receded and the land dried up. Rather than follow the water, the flora and fauna that made the pond their home have instead adapted to land.</description>
 		<texture>ZWB_Textures/Purple</texture>
 		<workerClass>ZWBCore.BiomeWorker_Test</workerClass>
@@ -131,24 +131,26 @@
 		</baseWeatherCommonalities>
 		<wildPlants>
 			<!-- trees -->
-			<ZWB_GiantLotus>1.0</ZWB_GiantLotus>
+			<ZWB_GiantLotus>1.5</ZWB_GiantLotus>
 		
 		
 		
 			<!-- ground cover -->
 			<ZWB_Duckwort>1.5</ZWB_Duckwort>
 			<ZWB_Greenflop>0.9</ZWB_Greenflop>
-			<ZWB_Pondruff>1.3</ZWB_Pondruff>
-			<ZWB_Bloodfern>0.5</ZWB_Bloodfern>
-			<ZWB_Arrowleaf>1.0</ZWB_Arrowleaf>
+			<ZWB_Pondruff>1.5</ZWB_Pondruff>
+			<ZWB_Bloodfern>0.6</ZWB_Bloodfern>
+			<ZWB_Arrowleaf>1.2</ZWB_Arrowleaf>
 			<ZWB_MinnowsTangle>0.5</ZWB_MinnowsTangle>
 			
-			<ZWB_Siltweed>0.5</ZWB_Siltweed>
-			<ZWB_Dross>0.5</ZWB_Dross>
+			<ZWB_Siltweed>0.6</ZWB_Siltweed>
+			<ZWB_Dross>0.6</ZWB_Dross>
+			<ZWB_GoldenLotus>0.2</ZWB_GoldenLotus>
 			
 			<!-- harvestable -->
-			<ZWB_WaterChestnutPlant>0.05</ZWB_WaterChestnutPlant>
-			<Plant_HealrootWild>0.02</Plant_HealrootWild>
+			<ZWB_WaterChestnutPlant>0.03</ZWB_WaterChestnutPlant>
+			<ZWB_WatercressPlant>0.04</ZWB_WatercressPlant>
+			<Plant_HealrootWild>0.015</Plant_HealrootWild>
 
 		</wildPlants>
 		<wildAnimals>

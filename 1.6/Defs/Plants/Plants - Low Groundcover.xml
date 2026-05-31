@@ -8,8 +8,6 @@
 		<description>PLACEHOLDER - light green, bramble-like, grows in clusters.</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
-			<Beauty>4</Beauty>
-			<BeautyOutdoors>4</BeautyOutdoors>
 			<Nutrition>0.2</Nutrition>
 		</statBases>
 		<pathCost>18</pathCost>
@@ -69,8 +67,8 @@
 		<description>PLACEHOLDER - grasslike, clusters. Stems with clusters of thin leaves</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
-			<Beauty>4</Beauty>
-			<BeautyOutdoors>4</BeautyOutdoors>
+			<Beauty>2</Beauty>
+			<BeautyOutdoors>2</BeautyOutdoors>
 			<Nutrition>0.4</Nutrition>
 		</statBases>
 		<pathCost>14</pathCost>
@@ -121,6 +119,39 @@
 			<wildClusterRadius>3</wildClusterRadius>
 			<wildClusterWeight>50</wildClusterWeight>
 			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="PlantBase">
+		<defName>ZWB_GoldenLotus</defName>
+		<label>golden lotus</label>
+		<description>PLACEHOLDER - pretty, decorative lotus plant with yellow flowers. Small.</description>
+		<statBases>
+			<MaxHitPoints>90</MaxHitPoints>
+			<Beauty>8</Beauty>
+			<BeautyOutdoors>11</BeautyOutdoors>
+			<Nutrition>0.2</Nutrition>
+		</statBases>
+		<pathCost>10</pathCost>
+		<graphicData>
+			<texPath>ZWB_Textures/Plants/GoldenLotus</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
+		<ingestible/>
+		<plant>
+			<fertilitySensitivity>0.7</fertilitySensitivity>
+			<growDays>4.5</growDays>
+			<fertilityMin>0.5</fertilityMin>
+			<maxMeshCount>4</maxMeshCount>
+			<visualSizeRange>0.5~0.85</visualSizeRange>
+			<topWindExposure>0.15</topWindExposure>
+			<wildClusterRadius>5</wildClusterRadius>
+			<wildClusterWeight>450</wildClusterWeight>
+			<wildOrder>2</wildOrder>
 		</plant>
 	</ThingDef>
 </Defs>

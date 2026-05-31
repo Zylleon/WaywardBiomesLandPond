@@ -156,31 +156,31 @@
 				<labelPlural>flupper fry</labelPlural>
 				<bodyGraphicData>
 					<texPath>ZWB_Textures/Animals/Flupper/Flupper0</texPath>
-					<drawSize>1.2</drawSize>
+					<drawSize>1.1</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>ZWB_Textures/Animals/Flupper/Dessicated_Flupper0</texPath>
-					<drawSize>1.2</drawSize>
+					<drawSize>1.1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
 					<texPath>ZWB_Textures/Animals/Flupper/Flupper0</texPath>
-					<drawSize>1.6</drawSize>
+					<drawSize>1.5</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>ZWB_Textures/Animals/Flupper/Dessicated_Flupper0</texPath>
-					<drawSize>1.6</drawSize>
+					<drawSize>1.5</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
 					<texPath>ZWB_Textures/Animals/Flupper/Flupper0</texPath>
-					<drawSize>2.0</drawSize>
+					<drawSize>1.85</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>ZWB_Textures/Animals/Flupper/Dessicated_Flupper0</texPath>
-					<drawSize>2.0</drawSize>
+					<drawSize>1.85</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>

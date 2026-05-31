@@ -4,23 +4,23 @@
 
   <ZWBCore.PlantClusterIncidentDef>
     <defName>ZWB_Incident_LotusBloom</defName>
-    <label>lotus bloom</label>
+    <label>giant lotus bloom</label>
     <category>Misc</category>
     <targetTags>
       <li>Map_PlayerHome</li>
     </targetTags>
     <workerClass>ZWBCore.IncidentWorker_PlantCluster</workerClass>
-	<plantDef>ZWB_LotusBloom</plantDef>
+	<plantDef>ZWB_GiantLotusBloom</plantDef>
 
 	<numClusters>3~11</numClusters>
 	<countPerCluster>8~23</countPerCluster>
 	<spawnRadius>4~11</spawnRadius>
     <baseChance>1.0</baseChance>
-    <letterLabel>Lotus bloom</letterLabel>
-    <letterText>Several clusters of lotus flowers are blooming! If you wait for the flowers to go to seed, they can be harvested for delicious, healthy seeds.</letterText>
+    <letterLabel>Giant lotus bloom</letterLabel>
+    <letterText>Several clusters of giant lotus flowers are blooming! If you wait for the flowers to go to seed, they can be harvested for delicious, healthy seeds.</letterText>
     <letterDef>PositiveEvent</letterDef>
     <allowedBiomes>
-      <li>ZWB_LandPond</li>
+      <li>ZWB_LotusWilds</li>
     </allowedBiomes>
   </ZWBCore.PlantClusterIncidentDef>
   

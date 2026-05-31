@@ -3,8 +3,8 @@
 
 
 	<ThingDef ParentName="PlantBase">
-		<defName>ZWB_LotusBloom</defName>
-		<label>lotus bloom</label>
+		<defName>ZWB_GiantLotusBloom</defName>
+		<label>giant lotus bloom</label>
 		<description>PLACEHOLDER - large flowers that will go to seed and be harvested for lotus seeds. Lotus seeds give a health boost if eaten raw. Quite pretty.</description>
 		<selectable>true</selectable>
 		<neverMultiSelect>false</neverMultiSelect>
@@ -17,7 +17,7 @@
 		</statBases>
 		<pathCost>18</pathCost>
 		<graphicData>
-			<texPath>ZWB_Textures/Plants/LotusBloom</texPath>
+			<texPath>ZWB_Textures/Plants/GiantLotusBloom</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shadowData>
 				<volume>(0.1, 0.35, 0.1)</volume>
@@ -28,7 +28,7 @@
 		<plant>
 			<fertilitySensitivity>0.8</fertilitySensitivity>
 			<growDays>6.5</growDays>
-			<immatureGraphicPath>ZWB_Textures/Plants/LotusBloom_Immature</immatureGraphicPath>
+			<immatureGraphicPath>ZWB_Textures/Plants/GiantLotusBloom_Immature</immatureGraphicPath>
 			<fertilityMin>0.25</fertilityMin>
 			<!-- <visualSizeRange>0.5~2.1</visualSizeRange> -->
 			<visualSizeRange>0.75~3.0</visualSizeRange>

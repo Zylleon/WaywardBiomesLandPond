@@ -2,42 +2,44 @@
 <Defs>
 
 	<ThingDef ParentName="PlantBase">
-		<defName>ZWB_WaterChestnutPlant</defName>
-		<label>water chestnut</label>
-		<description>PLACEHOLDER: Grass-like plant with edible roots.</description>
+		<defName>ZWB_WatercressPlant</defName>
+		<label>watercress</label>
+		<description>PLACEHOLDER: Edible leafy greens that spawn in small tight clusters</description>
 		<neverMultiSelect>false</neverMultiSelect>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
 			<Nutrition>0.50</Nutrition>
 		</statBases>
 		<graphicData>
-			<texPath>ZWB_Textures/Plants/WaterChestnut</texPath>
+			<texPath>ZWB_Textures/Plants/Watercress</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<selectable>true</selectable>
-		<pathCost>12</pathCost>
+		<!-- <pathCost>12</pathCost> -->
 		<ingestible/>
 		<plant>
-			<sowMinSkill>4</sowMinSkill>
+			<!-- <sowMinSkill>3</sowMinSkill> -->
 			<dieIfLeafless>true</dieIfLeafless>
 			<sowTags>
 				<li>Ground</li>
 				<li>Hydroponic</li>
 			</sowTags>
 			<mustBeWildToSow>true</mustBeWildToSow>
-			<fertilityMin>0.5</fertilityMin>
-			<fertilitySensitivity>0.8</fertilitySensitivity>
-			<growDays>7.5</growDays>
-			<immatureGraphicPath>ZWB_Textures/Plants/WaterChestnut_Immature</immatureGraphicPath>
-			<harvestYield>14</harvestYield>
+			<fertilityMin>0.05</fertilityMin>
+			<fertilitySensitivity>1.2</fertilitySensitivity>
+			<growDays>3.4</growDays>
+			<immatureGraphicPath>ZWB_Textures/Plants/Watercress_Immature</immatureGraphicPath>
+			<harvestYield>7</harvestYield>
 			<harvestWork>250</harvestWork>
-			<!-- <maxMeshCount>9</maxMeshCount> -->
+			<maxMeshCount>16</maxMeshCount>
 			<harvestTag>Standard</harvestTag>
-			<harvestedThingDef>ZWB_WaterChestnuts</harvestedThingDef>
-			<wildClusterRadius>5</wildClusterRadius>
-			<wildClusterWeight>400</wildClusterWeight>
-			<visualSizeRange>0.7~1.9</visualSizeRange>
-			<topWindExposure>0.15</topWindExposure>
+			<harvestedThingDef>ZWB_Watercress</harvestedThingDef>
+			<harvestMinGrowth>.8</harvestMinGrowth>
+			<harvestMinGrowth>.8</harvestMinGrowth>
+			<wildClusterRadius>6</wildClusterRadius>
+			<wildClusterWeight>320</wildClusterWeight>
+			<visualSizeRange>0.3~.5</visualSizeRange>
+			<topWindExposure>0.05</topWindExposure>
 			<wildOrder>2</wildOrder>
 			<purpose>Food</purpose>
 			<humanFoodPlant>true</humanFoodPlant>
@@ -47,13 +49,13 @@
 	
 
   <ThingDef ParentName="PlantFoodRawBase">
-    <defName>ZWB_WaterChestnuts</defName>
-    <label>water chestnuts</label>
+    <defName>ZWB_Watercress</defName>
+    <label>watercress</label>
     <description>Crisp, crunchy vegetables with a slightly sweet taste. Can be eaten raw, but is better cooked.</description>
     <soundInteract>Grain_Drop</soundInteract>
     <soundDrop>Grain_Drop</soundDrop>
     <graphicData>
-      <texPath>ZWB_Textures/Things/WaterChestnuts</texPath>
+      <texPath>ZWB_Textures/Things/Watercress</texPath>
     </graphicData>
     <statBases>
       <MarketValue>1.1</MarketValue>
@@ -63,7 +65,7 @@
     </ingestible>
     <comps>
       <li Class="CompProperties_Rottable">
-        <daysToRotStart>40</daysToRotStart>
+        <daysToRotStart>18</daysToRotStart>
         <rotDestroys>true</rotDestroys>
       </li>
     </comps>

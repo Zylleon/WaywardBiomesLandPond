@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_HardbackedSnop</defName>
 		<label>hardbacked snop</label>
-		<description>PLACEHOLDER - Alpaca sized, pack animal. Scavenger. Spawns in groups of 1-3. Live birth.</description>
+		<description>PLACEHOLDER - Alpaca sized, pack animal. Scavenger. Spawns in groups of 1-3. Live birth. Rideable in caravans.</description>
 		<statBases>
 			<MoveSpeed>4.5</MoveSpeed>
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
@@ -16,6 +16,7 @@
 			<LeatherAmount>13</LeatherAmount><!-- 19 -->
 			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
+			<CaravanRidingSpeedFactor>1.15</CaravanRidingSpeedFactor>
 		</statBases>
 
 		<race>
