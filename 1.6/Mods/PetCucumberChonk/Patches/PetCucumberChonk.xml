@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ZWB_LotusWilds"]/wildAnimals</xpath>
+		<value>
+			<SeaCucumber>0.1</SeaCucumber>
+			<ChonkCucumber>.1</ChonkCucumber>
+			<KingCucumber>.1</KingCucumber>
+		</value>
+	</Operation>
+
+
+</Patch>
+

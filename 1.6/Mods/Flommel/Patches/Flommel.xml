@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ZWB_LotusWilds"]/wildAnimals</xpath>
+		<value>
+			<ChasmoFlommel>0.1</ChasmoFlommel>
+			<LizardFlommel>0.03</LizardFlommel>
+			<MapleFlommel>0.02</MapleFlommel>
+			<SpikeFlommel>0.05</SpikeFlommel>
+			<TrikeFlommel>0.05</TrikeFlommel>
+			<WoollyFlommel>0.1</WoollyFlommel>
+		</value>
+	</Operation>
+
+
+</Patch>
+
