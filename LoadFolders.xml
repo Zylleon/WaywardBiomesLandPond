@@ -10,6 +10,7 @@
 		<li IfModActive="Van.Beasts">1.6/Mods/DABeastsMonsters</li>
 		<li IfModActive="zylle.Ducks">1.6/Mods/Ducks</li>
 		<li IfModActive="feb.biopunklivestock">1.6/Mods/FebBiopunkLivestock</li>
+		<li IfModActive="Scurvyez.FabledCervidae">1.6/Mods/FabledCervidae</li>
 		<li IfModActive="Tigerblut.Flommel">1.6/Mods/Flommel</li>
 		<li IfModActive="zal.gianttoads">1.6/Mods/GiantToads</li>
 		<li IfModActive="Tigerblut.SeaCucumberChonk">1.6/Mods/PetCucumberChonk</li>
