@@ -162,9 +162,10 @@
 			<ZWB_Skyfin>0.5</ZWB_Skyfin>
 			<ZWB_Flupper>0.5</ZWB_Flupper>
 			<ZWB_Suribora>1</ZWB_Suribora>
+			<ZWB_LotusFrog>0.4</ZWB_LotusFrog>
 			
 			<Bullfrog MayRequire="Ludeon.RimWorld.Odyssey">0.2</Bullfrog>
-			<Duck>0.05</Duck>
+			<Duck>0.1</Duck>
 			<Tortoise>0.05</Tortoise>
 
 
@@ -183,7 +184,6 @@
 			<!-- predator/grazers -->
 			<ZWB_GoldenGaup>0.2</ZWB_GoldenGaup>
 			<ZWB_SpeckledGaup>0.2</ZWB_SpeckledGaup>
-			
 			
 			
 			<!-- predators -->
