@@ -24,7 +24,7 @@
 		<ingestible/>
 		<plant>
 			<fertilitySensitivity>0.75</fertilitySensitivity>
-			<growDays>11</growDays>
+			<growDays>13</growDays>
 			<fertilityMin>0.25</fertilityMin>
 			<!-- <maxMeshCount>9</maxMeshCount> -->
 			<visualSizeRange>0.5~2.4</visualSizeRange>
@@ -34,6 +34,42 @@
 			<harvestYield>14</harvestYield>
 		</plant>
 	</ThingDef>
+
+
+
+	<ThingDef ParentName="TreeBase">
+		<defName>ZWB_SpindlyLotus</defName>
+		<label>spindly lotus</label>
+		<description>PLACEHOLDER - large, tree-like variant of the lotus that can be harvested for wood. No flowers.</description>
+		<statBases>
+			<Beauty>4</Beauty>
+			<BeautyOutdoors>4</BeautyOutdoors>
+			<Nutrition>1.25</Nutrition>
+		</statBases>
+		<pathCost>18</pathCost>
+		<graphicData>
+			<texPath>ZWB_Textures/Plants/SpindlyLotus</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+			<shadowData>
+				<volume>(0.1, 0.35, 0.1)</volume>
+				<offset>(0,0,-0.42)</offset>
+			</shadowData>
+		</graphicData>
+		<hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth>
+		<ingestible/>
+		<plant>
+			<fertilitySensitivity>0.75</fertilitySensitivity>
+			<growDays>6</growDays>
+			<fertilityMin>0.25</fertilityMin>
+			<!-- <maxMeshCount>9</maxMeshCount> -->
+			<visualSizeRange>0.8~3.9</visualSizeRange>
+			<topWindExposure>0.8</topWindExposure>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>200</wildClusterWeight>
+			<harvestYield>8</harvestYield>
+		</plant>
+	</ThingDef>
+
 
 
 

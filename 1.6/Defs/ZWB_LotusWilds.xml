@@ -131,8 +131,8 @@
 		</baseWeatherCommonalities>
 		<wildPlants>
 			<!-- trees -->
-			<ZWB_GiantLotus>1.5</ZWB_GiantLotus>
-		
+			<ZWB_GiantLotus>0.9</ZWB_GiantLotus>
+			<ZWB_SpindlyLotus>0.6</ZWB_SpindlyLotus>
 		
 		
 			<!-- ground cover -->
