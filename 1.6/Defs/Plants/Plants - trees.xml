@@ -63,7 +63,7 @@
 			<fertilityMin>0.25</fertilityMin>
 			<!-- <maxMeshCount>9</maxMeshCount> -->
 			<visualSizeRange>0.8~3.9</visualSizeRange>
-			<topWindExposure>0.8</topWindExposure>
+			<topWindExposure>0.5</topWindExposure>
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>200</wildClusterWeight>
 			<harvestYield>8</harvestYield>

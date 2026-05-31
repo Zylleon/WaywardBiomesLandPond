@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ZWB_LotusWilds"]/wildAnimals</xpath>
+		<value>
+			<GiantToad>0.05</GiantToad>
+			<KingToad>.01</KingToad>
+		</value>
+	</Operation>
+
+
+</Patch>
+

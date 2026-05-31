@@ -7,6 +7,7 @@
 		
 		<li IfModActive="zylle.Turtles">1.6/Mods/Turtles</li>
 		<li IfModActive="zylle.Ducks">1.6/Mods/Ducks</li>
+		<li IfModActive="zal.gianttoads">1.6/Mods/GiantToads</li>
 		
 		<!--
 		<li IfModActive="sarg.alphaanimals">1.6/Mods/AlphaAnimals</li>
