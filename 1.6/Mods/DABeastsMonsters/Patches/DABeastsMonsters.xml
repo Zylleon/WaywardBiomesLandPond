@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ZWB_LotusWilds"]/wildAnimals</xpath>
+		<value>
+			<DA_Barog>0.05</DA_Barog>
+			<DA_Snaptoad>0.05</DA_Snaptoad>
+			<DA_Phrak>0.1</DA_Phrak>
+		</value>
+	</Operation>
+
+
+</Patch>
+
