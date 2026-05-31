@@ -13,7 +13,7 @@
 			<ComfyTemperatureMax>40</ComfyTemperatureMax>
 			<MarketValue>350</MarketValue>
 			<Wildness>0.3</Wildness>
-			<LeatherAmount>13</LeatherAmount><!-- 19 -->
+			<!-- <LeatherAmount>13</LeatherAmount> -->
 			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
 			<CaravanRidingSpeedFactor>1.15</CaravanRidingSpeedFactor>
@@ -28,6 +28,7 @@
 			<foodType>OmnivoreAnimal</foodType>
 			<trainability>Intermediate</trainability>
 			<lifeExpectancy>8</lifeExpectancy>
+			<meatLabel>crawdad meat</meatLabel>
 			<!-- <useMeatFrom>ZWB_Bubbler</useMeatFrom> -->
 			<leatherDef>Leather_Plain</leatherDef>
 			<gestationPeriodDays>6.5</gestationPeriodDays>
@@ -53,7 +54,7 @@
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 			<soundEating>Rodent_Eat</soundEating>
-			<packAnimal>false</packAnimal>
+			<packAnimal>true</packAnimal>
 		</race>
 		<tradeTags>
 			<li>AnimalCommon</li>

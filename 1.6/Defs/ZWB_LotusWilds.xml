@@ -179,6 +179,7 @@
 			
 			<!-- scavengers -->
 			<ZWB_HardbackedSnop>0.5</ZWB_HardbackedSnop>		<!-- smaller pack animal, fighter -->
+			<ZWB_SnippySnop>0.5</ZWB_SnippySnop>				<!-- fighter -->
 			
 			
 			<!-- predator/grazers -->

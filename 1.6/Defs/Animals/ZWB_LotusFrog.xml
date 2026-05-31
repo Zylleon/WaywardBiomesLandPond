@@ -12,7 +12,7 @@
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
 			<ComfyTemperatureMax>40</ComfyTemperatureMax>
 			<MarketValue>40</MarketValue>
-			<Wildness>0.5</Wildness>
+			<Wildness>0.25</Wildness>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_EggLayer">
@@ -67,7 +67,7 @@
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>5</power>
+				<power>4</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<chanceFactor>0.7</chanceFactor>
@@ -98,21 +98,21 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>ZWB_Textures/Animals/LotusFrog/LotusFrog</texPath>
-					<drawSize>0.35</drawSize>
+					<drawSize>0.45</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>ZWB_Textures/Animals/LotusFrog/Dessicated_LotusFrog</texPath>
-					<drawSize>0.35</drawSize>
+					<drawSize>0.45</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
 					<texPath>ZWB_Textures/Animals/LotusFrog/LotusFrog</texPath>
-					<drawSize>0.65</drawSize>
+					<drawSize>0.75</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
 					<texPath>ZWB_Textures/Animals/LotusFrog/Dessicated_LotusFrog</texPath>
-					<drawSize>0.65</drawSize>
+					<drawSize>0.75</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
