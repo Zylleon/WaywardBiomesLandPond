@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ZWB_LotusWilds"]/wildAnimals</xpath>
+		<value>
+			<ZDuck_Ducky>0.1</ZDuck_Ducky>
+			<ZDuck_GreaterMallard>0.03</ZDuck_GreaterMallard>
+			<ZDuck_Quackodile>0.02</ZDuck_Quackodile>
+			<ZDuck_RudderDuck>0.2</ZDuck_RudderDuck>
+		</value>
+	</Operation>
+
+
+</Patch>
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ZWB_LotusWilds"]/wildAnimals</xpath>
+		<value>
+			<ZTT_GiantStarTortoise>0.01</ZTT_GiantStarTortoise>
+			<ZTT_MudTurtle>.1</ZTT_MudTurtle>
+			<ZTT_PaintedSnapvine>.1</ZTT_PaintedSnapvine>
+			<ZTT_Toughback>.02</ZTT_Toughback>
+		</value>
+	</Operation>
+
+
+</Patch>
+

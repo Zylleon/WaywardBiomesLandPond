@@ -160,12 +160,18 @@
 			<ZWB_Skyfin>0.5</ZWB_Skyfin>
 			<ZWB_Flupper>0.5</ZWB_Flupper>
 			<ZWB_Suribora>1</ZWB_Suribora>
+			
+			<Bullfrog MayRequire="Ludeon.RimWorld.Odyssey">0.2</Bullfrog>
+			<Duck>0.05</Duck>
+			<Tortoise>0.05</Tortoise>
 
 
 			<!-- large grazers -->
 			<ZWB_Wampler>1.0</ZWB_Wampler>
 			<ZWB_Terrakoi>0.5</ZWB_Terrakoi>			<!-- hauler -->
 			<ZWB_Catfish>1.0</ZWB_Catfish>				<!-- pack animal, very large -->
+			
+			<ColossusToad MayRequire="Ludeon.RimWorld.Odyssey">0.03</ColossusToad>
 			
 			
 			<!-- scavengers -->
@@ -181,6 +187,9 @@
 			<!-- predators -->
 			<ZWB_Quet>0.1</ZWB_Quet> 		<!-- mid sized -->
 			<ZWB_Awanna>0.1</ZWB_Awanna> 	<!-- pack animal, very large -->
+			
+			<Alligator MayRequire="Ludeon.RimWorld.Odyssey">0.05</Alligator>
+			<BogHound MayRequire="Ludeon.RimWorld.Odyssey">0.025</BogHound>
 			
 		</wildAnimals>
 		<pollutionWildAnimals MayRequire="Ludeon.RimWorld.Biotech">
