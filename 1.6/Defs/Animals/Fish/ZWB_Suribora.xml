@@ -36,7 +36,7 @@
 			<trainability>None</trainability>
 			<manhunterOnTameFailChance>0.0</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.15</manhunterOnDamageChance>
-			<!-- <useMeatFrom>ZWB_Jesterfish</useMeatFrom> -->
+			<useMeatFrom>ZWB_Awanna</useMeatFrom>
 			<lifeExpectancy>11</lifeExpectancy>
 			<lifeStageAges>
 				<li>

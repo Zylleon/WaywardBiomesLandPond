@@ -26,7 +26,7 @@
 			<mateMtbHours>8</mateMtbHours>
 			<nuzzleMtbHours>24</nuzzleMtbHours>
 			<petness>0.80</petness>
-			<!-- <useMeatFrom>ZWB_Jesterfish</useMeatFrom> -->
+			<useMeatFrom>ZWB_Awanna</useMeatFrom>
 			<lifeExpectancy>11</lifeExpectancy>
 			<manhunterOnTameFailChance>0.0</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.0</manhunterOnDamageChance>

@@ -34,7 +34,7 @@
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Plain</leatherDef>
 			<trainability>Advanced</trainability>
-			<!-- <useMeatFrom>ZWB_Jesterfish</useMeatFrom> -->
+			<useMeatFrom>ZWB_Awanna</useMeatFrom>
 			<lifeExpectancy>12</lifeExpectancy>
 			<petness>0.5</petness>
 			<nuzzleMtbHours>24</nuzzleMtbHours>

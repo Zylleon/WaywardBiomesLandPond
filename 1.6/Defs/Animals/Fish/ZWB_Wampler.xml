@@ -33,7 +33,7 @@
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Plain</leatherDef>
 			<trainability>None</trainability>
-			<!-- <useMeatFrom>ZWB_Jesterfish</useMeatFrom> -->
+			<useMeatFrom>ZWB_Awanna</useMeatFrom>
 			<lifeExpectancy>16</lifeExpectancy>
 			<lifeStageAges>
 				<li>

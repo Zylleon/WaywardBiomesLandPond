@@ -34,7 +34,7 @@
 			<foodType>OmnivoreRoughAnimal</foodType>
 			<leatherDef>Leather_Plain</leatherDef>
 			<trainability>Advanced</trainability>
-			<!-- <useMeatFrom>ZWB_Jesterfish</useMeatFrom> -->
+			<useMeatFrom>ZWB_Awanna</useMeatFrom>
 			<lifeExpectancy>12</lifeExpectancy>
 			<manhunterOnTameFailChance>0.15</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.15</manhunterOnDamageChance>

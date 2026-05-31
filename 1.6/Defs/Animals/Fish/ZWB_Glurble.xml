@@ -33,7 +33,7 @@
 			<baseHealthScale>0.85</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Plain</leatherDef>
-			<!-- <useMeatFrom>ZWB_Jesterfish</useMeatFrom> -->
+			<useMeatFrom>ZWB_Awanna</useMeatFrom>
 			<trainability>None</trainability>
 			<roamMtbDays>2</roamMtbDays>
 			<lifeExpectancy>17</lifeExpectancy>

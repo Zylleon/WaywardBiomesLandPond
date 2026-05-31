@@ -31,7 +31,7 @@
 			<baseHungerRate>0.1</baseHungerRate>
 			<baseHealthScale>0.30</baseHealthScale>
 			<foodType>OmnivoreRoughAnimal</foodType>
-			<!-- <useMeatFrom>ZWB_Jesterfish</useMeatFrom> TODO! --> 
+			<useMeatFrom>ZWB_Awanna</useMeatFrom>
 			<leatherDef>Leather_Plain</leatherDef>
 			<trainability>Intermediate</trainability>
 			<lifeExpectancy>6</lifeExpectancy>

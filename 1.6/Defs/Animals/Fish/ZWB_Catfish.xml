@@ -33,7 +33,7 @@
 			<baseHealthScale>1.9</baseHealthScale>
 			<foodType>OmnivoreRoughAnimal</foodType>
 			<leatherDef>Leather_Plain</leatherDef>
-			<!-- <useMeatFrom>ZWB_Jesterfish</useMeatFrom> -->
+			<useMeatFrom>ZWB_Awanna</useMeatFrom>
 			<trainability>Intermediate</trainability>
 			<lifeExpectancy>33</lifeExpectancy>
 			<manhunterOnDamageChance>0.25</manhunterOnDamageChance>
