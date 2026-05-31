@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ZWB_LotusWilds"]/fishTypes/freshwater_Common</xpath>
+		<value>
+			<VCEF_RawHerring MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_RawHerring>
+			<VCEF_RawTrout MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_RawTrout>
+			<VCEF_RawMinnow MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_RawMinnow>
+			<VCEF_RawKoi MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_RawKoi>
+			<VCEF_RawPerch MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_RawPerch>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ZWB_LotusWilds"]/fishTypes/saltwater_Common</xpath>
+		<value>
+			<VCEF_RawAnchovy MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_RawAnchovy>
+			<VCEF_RawEel MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_RawEel>
+			<VCEF_RawClownfish MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_RawClownfish>
+			<VCEF_RawSprat MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_RawSprat>
+			<VCEF_RawAnglerfish MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_RawAnglerfish>
+			<VCEF_RawHaddock MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_RawHaddock>
+			<VCEF_RawPufferfish MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_RawPufferfish>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ZWB_LotusWilds"]/fishTypes/saltwater_Uncommon</xpath>
+		<value>
+			<VCEF_RawHalibut MayRequire="Ludeon.RimWorld.Odyssey">1</VCEF_RawHalibut>
+		</value>
+	</Operation>
+
+
+</Patch>
+

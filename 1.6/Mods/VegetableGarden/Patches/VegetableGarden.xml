@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ZWB_LotusWilds"]/wildPlants</xpath>
+		<value>
+			<PlantTreeIronwood>0.01</PlantTreeIronwood>
+			<VG_Plant_TreeBamboo>0.04</VG_Plant_TreeBamboo>
+			<WildorangeTree>0.001</WildorangeTree>
+			<WildPlantCherrytree>0.01</WildPlantCherrytree>
+			<WildPlantcloudberry>0.01</WildPlantcloudberry>
+			<ST_WildHoneyTree>0.01</ST_WildHoneyTree>
+			<Plantmushroom>0.05</Plantmushroom>
+			<Plant_bean>0.01</Plant_bean>
+		</value>
+	</Operation>
+
+
+</Patch>
+
