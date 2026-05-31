@@ -51,7 +51,7 @@
 			<texPath>ZWB_Textures/Plants/SpindlyLotus</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 			<shadowData>
-				<volume>(0.1, 0.35, 0.1)</volume>
+				<volume>(0.07, 0.35, 0.07)</volume>
 				<offset>(0,0,-0.42)</offset>
 			</shadowData>
 		</graphicData>
