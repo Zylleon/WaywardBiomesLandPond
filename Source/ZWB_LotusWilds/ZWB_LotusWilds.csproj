@@ -7,8 +7,8 @@
     <ProjectGuid>{254C562C-93BB-43BD-869E-B6EB97874613}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LandPond</RootNamespace>
-    <AssemblyName>LandPond</AssemblyName>
+    <RootNamespace>ZWB_LotusWilds</RootNamespace>
+    <AssemblyName>ZWB_LotusWilds</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
