@@ -19,7 +19,7 @@
 		<ingestible/>
 		<plant>
 			<!-- <sowMinSkill>3</sowMinSkill> -->
-			<dieIfLeafless>true</dieIfLeafless>
+			<dieIfLeafless>false</dieIfLeafless>
 			<sowTags>
 				<li>Ground</li>
 				<li>Hydroponic</li>

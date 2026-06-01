@@ -12,7 +12,7 @@
     <workerClass>ZWBCore.IncidentWorker_PlantCluster</workerClass>
 	<plantDef>ZWB_GiantLotusBloom</plantDef>
 
-	<numClusters>3~11</numClusters>
+	<numClusters>3~7</numClusters>
 	<countPerCluster>8~23</countPerCluster>
 	<spawnRadius>4~11</spawnRadius>
     <baseChance>1.0</baseChance>

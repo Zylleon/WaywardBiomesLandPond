@@ -9,7 +9,7 @@
 		<description>PLACEHOLDER: Small, omnivore, spawns in small schools</description>
 		<statBases>
 			<MoveSpeed>4.0</MoveSpeed>
-			<ComfyTemperatureMin>-10</ComfyTemperatureMin>
+			<ComfyTemperatureMin>-20</ComfyTemperatureMin>
 			<ComfyTemperatureMax>40</ComfyTemperatureMax>
 			<MarketValue>40</MarketValue>
 			<Wildness>0.5</Wildness>

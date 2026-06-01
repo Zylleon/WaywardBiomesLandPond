@@ -12,7 +12,7 @@
 		<workerClass>ZWB_LotusWilds.BiomeWorker_LotusWilds</workerClass>
 		<settlementSelectionWeight>0.5</settlementSelectionWeight>
 		<movementDifficulty>1.5</movementDifficulty>
-		<animalDensity>5.0</animalDensity>
+		<animalDensity>4.3</animalDensity>
 		<plantDensity>0.9</plantDensity>
 		<wildPlantRegrowDays>12</wildPlantRegrowDays>
 		<forageability>1</forageability>
