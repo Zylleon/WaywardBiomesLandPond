@@ -8,16 +8,16 @@
 		<description>The remnants of what was once a pond. Over time, the waters receded and the land dried up. Rather than follow the water, the flora and fauna that made the pond their home have instead adapted to land.</description>
 		<!-- <texture>ZWB_Textures/Purple</texture> -->
 		<texture>ZWB_Textures/LotusWilds</texture>
-		<!-- <workerClass>ZWBCore.BiomeWorker_Test</workerClass> -->
-		<workerClass>ZWB_LotusWilds.BiomeWorker_LotusWilds</workerClass>
+		<workerClass>ZWBCore.BiomeWorker_Test</workerClass> 
+		<!-- <workerClass>ZWB_LotusWilds.BiomeWorker_LotusWilds</workerClass> -->
 		<settlementSelectionWeight>0.5</settlementSelectionWeight>
 		<movementDifficulty>1.5</movementDifficulty>
 		<animalDensity>4.3</animalDensity>
 		<plantDensity>0.9</plantDensity>
 		<wildPlantRegrowDays>12</wildPlantRegrowDays>
 		<forageability>1</forageability>
-		<foragedFood>RawBerries</foragedFood>
-		<maxFishPopulation>720</maxFishPopulation>
+		<foragedFood>ZWB_Watercress</foragedFood>
+		<maxFishPopulation>600</maxFishPopulation>
 		<!-- <wildPlantsCareAboutLocalFertility>false</wildPlantsCareAboutLocalFertility> -->
 		<fishTypes MayRequire="Ludeon.RimWorld.Odyssey">
 			<freshwater_Common>
@@ -92,11 +92,11 @@
 			<li>
 				<terrain>ZWB_SandySilt</terrain>
 				<min>0.45</min>
-				<max>0.80</max>
+				<max>0.87</max>
 			</li>
 			<li>
 				<terrain>ZWB_EnrichedSilt</terrain>
-				<min>0.80</min>
+				<min>0.87</min>
 				<max>999</max>
 			</li>
 		</terrainsByFertility>
@@ -107,12 +107,12 @@
 				<thresholds>
 					<li>
 						<terrain>ZWB_SandySilt</terrain>
-						<min>0.45</min>
-						<max>0.6</max>
+						<min>0.40</min>
+						<max>0.55</max>
 					</li>
 					<li>
 						<terrain>ZWB_EnrichedSilt</terrain>
-						<min>0.6</min>
+						<min>0.55</min>
 						<max>0.82</max>
 					</li>
 					<li>
@@ -155,11 +155,19 @@
 			<ZWB_Dross>0.6</ZWB_Dross>
 			<ZWB_GoldenLotus>0.2</ZWB_GoldenLotus>
 
+
 			<!-- harvestable -->
 			<ZWB_WaterChestnutPlant>0.03</ZWB_WaterChestnutPlant>
 			<ZWB_WatercressPlant>0.04</ZWB_WatercressPlant>
 			<Plant_HealrootWild>0.015</Plant_HealrootWild>
 
+
+			<!-- water plants -->
+			<Plant_Reeds MayRequire="Ludeon.RimWorld.Odyssey">1.2</Plant_Reeds>
+			<Plant_LilyPad MayRequire="Ludeon.RimWorld.Odyssey">0.1</Plant_LilyPad>
+			<Plant_Lotus MayRequire="Ludeon.RimWorld.Odyssey">0.1</Plant_Lotus>
+			
+			
 		</wildPlants>
 		<wildAnimals>
 			<!-- small grazers -->
