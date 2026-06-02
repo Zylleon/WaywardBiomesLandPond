@@ -5,11 +5,10 @@
 	<BiomeDef>
 		<defName>ZWB_LotusWilds</defName>
 		<label>lotus wilds</label>
-		<description>The remnants of what was once a pond. Over time, the waters receded and the land dried up. Rather than follow the water, the flora and fauna that made the pond their home have instead adapted to land.</description>
-		<!-- <texture>ZWB_Textures/Purple</texture> -->
+		<description>Groves of towering giant lotus plants, interspersed with reeds and grasses. Schools of land-adapted fish and other freshwater creatures wander through the foliage here.</description>
 		<texture>ZWB_Textures/LotusWilds</texture>
-		<workerClass>ZWBCore.BiomeWorker_Test</workerClass> 
-		<!-- <workerClass>ZWB_LotusWilds.BiomeWorker_LotusWilds</workerClass> -->
+		<!-- <workerClass>ZWBCore.BiomeWorker_Test</workerClass>  -->
+		<workerClass>ZWB_LotusWilds.BiomeWorker_LotusWilds</workerClass>
 		<settlementSelectionWeight>0.5</settlementSelectionWeight>
 		<movementDifficulty>1.5</movementDifficulty>
 		<animalDensity>4.3</animalDensity>

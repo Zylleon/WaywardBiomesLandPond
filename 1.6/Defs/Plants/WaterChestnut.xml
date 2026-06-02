@@ -4,7 +4,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_WaterChestnutPlant</defName>
 		<label>water chestnut</label>
-		<description>PLACEHOLDER: Grass-like plant with edible roots.</description>
+		<description>A tall, grass-like plant with edible "nuts" growing underground.</description>
 		<neverMultiSelect>false</neverMultiSelect>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>

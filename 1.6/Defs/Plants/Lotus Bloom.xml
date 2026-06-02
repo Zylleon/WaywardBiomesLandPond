@@ -5,7 +5,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_GiantLotusBloom</defName>
 		<label>giant lotus bloom</label>
-		<description>PLACEHOLDER - large flowers that will go to seed and be harvested for lotus seeds. Lotus seeds give a health boost if eaten raw. Quite pretty.</description>
+		<description>Large flowers that will go to seed and be harvested for lotus seeds. Lotus seeds give a health boost if eaten raw. Quite pretty.</description>
 		<selectable>true</selectable>
 		<neverMultiSelect>false</neverMultiSelect>
 		<altitudeLayer>Building</altitudeLayer>
@@ -47,7 +47,7 @@
 	<ThingDef ParentName="PlantFoodRawBase">
 		<defName>ZWB_LotusSeeds</defName>
 		<label>lotus seeds</label>
-		<description>PLACEHOLDER - gives health bost if eaten raw</description>
+		<description>Raw lotus seeds. Eating these will boost health and immunity.</description>
 		<graphicData>
 			<texPath>ZWB_Textures/Things/LotusSeeds</texPath>
 		</graphicData>

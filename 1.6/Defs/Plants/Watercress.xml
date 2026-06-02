@@ -4,7 +4,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_WatercressPlant</defName>
 		<label>watercress</label>
-		<description>PLACEHOLDER: Edible leafy greens that spawn in small tight clusters</description>
+		<description>Small clusters of edible leafy greens. Watercress is one of the oldest known leafy vegetables to be eaten by humans.</description>
 		<neverMultiSelect>false</neverMultiSelect>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>

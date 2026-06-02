@@ -5,7 +5,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_MinnowsTangle</defName>
 		<label>minnow's tangle</label>
-		<description>PLACEHOLDER - light green, bramble-like, grows in clusters.</description>
+		<description>Light green, bramble-like plant that grows in clusters.</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
 			<Nutrition>0.2</Nutrition>
@@ -35,7 +35,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_Siltweed</defName>
 		<label>siltweed</label>
-		<description>PLACEHOLDER - dark, medium-height grass that grows in little sprigs</description>
+		<description>A small, dark-colored grass that grows in small clusters.</description>
 		<statBases>
 			<MaxHitPoints>70</MaxHitPoints>
 			<Nutrition>0.3</Nutrition>
@@ -64,7 +64,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_Duckwort</defName>
 		<label>duckwort</label>
-		<description>PLACEHOLDER - grasslike, clusters. Stems with clusters of thin leaves</description>
+		<description>Descended from popular aquarium plants, duckwort grows long stems with clusters of thin leaves at regular intervals.</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
 			<Beauty>2</Beauty>
@@ -96,7 +96,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_Dross</defName>
 		<label>dross</label>
-		<description>PLACEHOLDER - tiny, green-yellow, mosslike, small clusters</description>
+		<description>A tiny mosslike plant with a yellowish color.</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
 			<Beauty>1</Beauty>
@@ -127,7 +127,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_GoldenLotus</defName>
 		<label>golden lotus</label>
-		<description>PLACEHOLDER - pretty, decorative lotus plant with yellow flowers. Small.</description>
+		<description>A pretty, decorative lotus plant with yellow flowers. Adapted to grow on land.</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
 			<Beauty>8</Beauty>

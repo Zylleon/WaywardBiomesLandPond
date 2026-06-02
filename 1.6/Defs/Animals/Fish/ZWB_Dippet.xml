@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_Dippet</defName>
 		<label>dippet</label>
-		<description>PLACEHOLDER: Small, omnivore, spawns in small schools</description>
+		<description>A small, silvery freshwater fish that roams in schools.</description>
 		<statBases>
 			<MoveSpeed>4.0</MoveSpeed>
 			<ComfyTemperatureMin>-20</ComfyTemperatureMin>

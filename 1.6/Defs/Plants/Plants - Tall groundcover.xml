@@ -5,7 +5,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_Greenflop</defName>
 		<label>greenflop</label>
-		<description>PLACEHOLDER - medium height plants, each with several long green leaves on long green stems.</description>
+		<description>Descended from popular aquarium plants, these medium height plants have long green leaves on tall stems.</description>
 		<statBases>
 			<MaxHitPoints>110</MaxHitPoints>
 			<Beauty>4</Beauty>
@@ -39,7 +39,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_Pondruff</defName>
 		<label>pondruff</label>
-		<description>PLACEHOLDER - long stems with plump leaves. Clustered.</description>
+		<description>A long stemmed plant with plump leaves.</description>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
 			<Beauty>2</Beauty>
@@ -72,7 +72,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_Bloodfern</defName>
 		<label>bloodfern</label>
-		<description>PLACEHOLDER - large, broad leaves, often with red markings</description>
+		<description>A plant large, broad leaves, tipped with red markings</description>
 		<statBases>
 			<MaxHitPoints>90</MaxHitPoints>
 			<Beauty>-2</Beauty>
@@ -104,7 +104,7 @@
 	<ThingDef ParentName="PlantBase">
 		<defName>ZWB_Arrowleaf</defName>
 		<label>arrowleaf</label>
-		<description>PLACEHOLDER - tall plants, each with several green leaves on long red stems.</description>
+		<description>Tall plants with red stems and point, arrow-shaped leaves.</description>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
 			<Beauty>4</Beauty>

@@ -23,7 +23,7 @@ namespace ZWB_LotusWilds
             {
                 return 0;
             }
-            if(tile.temperature < -3f || tile.temperature > 10f)
+            if(tile.temperature < -1f || tile.temperature > 11f)
             {
                 return 0;
             }
@@ -31,10 +31,11 @@ namespace ZWB_LotusWilds
             {
                 return 0f;
             }
-            if (tile.elevation > 450f)
+            if (tile.elevation < 300f)
             {
                 return 0f;
             }
+
 
             return 100f;
         }

@@ -5,7 +5,7 @@
 	<ThingDef ParentName="TreeBase">
 		<defName>ZWB_GiantLotus</defName>
 		<label>giant lotus</label>
-		<description>PLACEHOLDER - large, tree-like variant of the lotus that can be harvested for wood. No flowers.</description>
+		<description>A giant lotus with a thick, sturdy woody stem bearing a large, broad leaf. Compared to most trees, this plant grows quickly but yeilds little usable wood.</description>
 		<statBases>
 			<Beauty>4</Beauty>
 			<BeautyOutdoors>4</BeautyOutdoors>
@@ -42,7 +42,7 @@
 	<ThingDef ParentName="TreeBase">
 		<defName>ZWB_SpindlyLotus</defName>
 		<label>spindly lotus</label>
-		<description>PLACEHOLDER - large, tree-like variant of the lotus that can be harvested for wood. No flowers.</description>
+		<description>A tall, fast-growing plant with a woody stem and a single broad leaf. This splindly lotus grows faster than the giant lotus, but yeilds less usable wood.</description>
 		<statBases>
 			<Beauty>4</Beauty>
 			<BeautyOutdoors>4</BeautyOutdoors>

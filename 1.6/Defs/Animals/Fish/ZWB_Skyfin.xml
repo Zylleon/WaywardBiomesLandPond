@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_Skyfin</defName>
 		<label>skyfin</label>
-		<description>PLACEHOLDER - medium-small herbivore.</description>
+		<description>Descended from the striped blue angelfish popular among aquarium enthusiasts. These skyfins are much larger than their tiny ancestors, but retain the distinctive blue coloration and vertical stripes.</description>
 		<statBases>
 			<MoveSpeed>4.0</MoveSpeed>
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>

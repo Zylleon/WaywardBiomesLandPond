@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_Awanna</defName>
 		<label>awanna</label>
-		<description>PLACEHOLDER: A huge predatory fish. Solitary. Many colors. Intermediate trainability.Pack animal.</description>
+		<description>A huge predatory fish that comes in many colors. This fish can be trained to carry a pack for long distances.</description>
 		<statBases>
 			<MoveSpeed>5.5</MoveSpeed>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
