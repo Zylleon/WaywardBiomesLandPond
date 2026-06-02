@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_LotusFrog</defName>
 		<label>lotus frog</label>
-		<description>PLACEHOLDER: Small frog that lives among the lotuses.</description>
+		<description>A small frog that lives among the lotuses. A peaceful creature, this frog relies on camouflage to evade predators.</description>
 		<statBases>
 			<MoveSpeed>4.0</MoveSpeed>
 			<ComfyTemperatureMin>-10</ComfyTemperatureMin>

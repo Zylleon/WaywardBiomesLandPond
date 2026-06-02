@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_Suribora</defName>
 		<label>suribora</label>
-		<description>PLACEHOLDER - medium-small herbivore, gazelle-like</description>
+		<description>The original wild suriboras were unremarkable, silvery fish. Bred for color and speed, this specimen is larger and flashier than its distant ancestors were.</description>
 		<statBases>
 			<MoveSpeed>5.8</MoveSpeed>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>

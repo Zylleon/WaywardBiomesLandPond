@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_Glurble</defName>
 		<label>glurble</label>
-		<description>PLACEHOLDER: mid sized, solitary, not a predator</description>
+		<description>A solitary, medium sized herbivore which makes its home in the lotus wilds.</description>
 		<statBases>
 			<MoveSpeed>4.6</MoveSpeed>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>

@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_Terrakoi</defName>
 		<label>terrakoi</label>
-		<description>PLACEHOLDER: A mid sized fish. Good pet, hauler. Grazer, large schools. Low wildness.</description>
+		<description>Large decorative carp, adapted for land. Domesticated long ago, koi are quite friendly and surprisingly smart.</description>
 		<statBases>
 			<MoveSpeed>4.8</MoveSpeed>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
