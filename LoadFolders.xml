@@ -15,12 +15,15 @@
 	<!-- animal mod patches -->
 		<li IfModActive="Park.Akoe">1.6/Mods/Akoe</li>
 		<li IfModActive="lingluo.ELUN982697019.AonyxCinerea">1.6/Mods/AonyxCinerea</li>
+		<li IfModActive="biomesteam.biomesprehistoric">1.6/Mods/BiomesPrehistoric</li>
 		<li IfModActive="Van.Beasts">1.6/Mods/DABeastsMonsters</li>
 		<li IfModActive="zylle.Ducks">1.6/Mods/Ducks</li>
 		<li IfModActive="feb.biopunklivestock">1.6/Mods/FebBiopunkLivestock</li>
 		<li IfModActive="Scurvyez.FabledCervidae">1.6/Mods/FabledCervidae</li>
 		<li IfModActive="Tigerblut.Flommel">1.6/Mods/Flommel</li>
 		<li IfModActive="zal.gianttoads">1.6/Mods/GiantToads</li>
+		<li IfModActive="GRimTerra.Biomesmod">1.6/Mods/GRiNDTerraBiomes</li>
+		<li IfModActive="Hali.NPSBiomes">1.6/Mods/NPSBiomes</li>
 		<li IfModActive="Tigerblut.SeaCucumberChonk">1.6/Mods/PetCucumberChonk</li>
 		<li IfModActive="ElTwoFour.SowoboeBugs">1.6/Mods/SowoboeBugs</li>
 		<li IfModActive="zylle.Turtles">1.6/Mods/Turtles</li>

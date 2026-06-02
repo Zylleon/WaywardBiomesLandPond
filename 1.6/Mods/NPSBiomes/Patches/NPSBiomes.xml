@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="ZWB_LotusWilds"]/wildAnimals</xpath>
+		<value>
+			<TKKN_crab>0.2</TKKN_crab>
+		</value>
+	</Operation>
+
+
+</Patch>
+
