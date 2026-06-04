@@ -202,8 +202,9 @@
 
 
 			<!-- predators -->
-			<ZWB_Quet>0.1</ZWB_Quet><!-- mid sized -->
-			<ZWB_Awanna>0.1</ZWB_Awanna><!-- pack animal, very large -->
+			<ZWB_RiverOtter>0.1</ZWB_RiverOtter>		<!-- small -->
+			<ZWB_Quet>0.1</ZWB_Quet>			<!-- mid sized -->
+			<ZWB_Awanna>0.1</ZWB_Awanna>		<!-- pack animal, very large -->
 
 			<Alligator MayRequire="Ludeon.RimWorld.Odyssey">0.05</Alligator>
 			<BogHound MayRequire="Ludeon.RimWorld.Odyssey">0.025</BogHound>
