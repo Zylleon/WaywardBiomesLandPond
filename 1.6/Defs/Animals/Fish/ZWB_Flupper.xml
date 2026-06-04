@@ -152,8 +152,8 @@
 		<wildGroupSize>3~11</wildGroupSize>
 		<lifeStages>
 			<li>
-				<label>flupper fry</label>
-				<labelPlural>flupper fry</labelPlural>
+				<label>fluppy</label>
+				<labelPlural>fluppies</labelPlural>
 				<bodyGraphicData>
 					<texPath>ZWB_Textures/Animals/Flupper/Flupper0</texPath>
 					<drawSize>1.1</drawSize>

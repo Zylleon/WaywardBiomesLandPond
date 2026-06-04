@@ -32,7 +32,7 @@
 			<baseHealthScale>0.32</baseHealthScale>
 			<foodType>OmnivoreRoughAnimal</foodType>
 			<!-- <useMeatFrom>ZWB_Awanna</useMeatFrom> -->
-			<leatherDef>ZWB_Leather_SiltSkin</leatherDef>
+			<leatherDef>Leather_Lizard</leatherDef>
 			<trainability>None</trainability>
 			<lifeExpectancy>9</lifeExpectancy>
 			<lifeStageAges>

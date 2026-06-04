@@ -86,7 +86,7 @@
 		<isBad>false</isBad>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>-1.23</severityPerDay>
+				<severityPerDay>-1.7</severityPerDay>
 				<showHoursToRecover>true</showHoursToRecover>
 			</li>
 		</comps>
@@ -95,7 +95,7 @@
 				<painFactor>0.95</painFactor>
 				<naturalHealingFactor>1.05</naturalHealingFactor>
 				<statOffsets>
-					<ImmunityGainSpeed>1.1</ImmunityGainSpeed>
+					<ImmunityGainSpeed>1.05</ImmunityGainSpeed>
 				</statOffsets>
 			</li>
 		</stages>

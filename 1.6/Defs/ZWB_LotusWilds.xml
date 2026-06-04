@@ -162,9 +162,9 @@
 
 
 			<!-- water plants -->
-			<Plant_Reeds MayRequire="Ludeon.RimWorld.Odyssey">1.2</Plant_Reeds>
+			<Plant_Reeds MayRequire="Ludeon.RimWorld.Odyssey">0.8</Plant_Reeds>
 			<Plant_LilyPad MayRequire="Ludeon.RimWorld.Odyssey">0.1</Plant_LilyPad>
-			<Plant_Lotus MayRequire="Ludeon.RimWorld.Odyssey">0.1</Plant_Lotus>
+			<Plant_Lotus MayRequire="Ludeon.RimWorld.Odyssey">0.5</Plant_Lotus>
 			
 			
 		</wildPlants>
@@ -180,19 +180,20 @@
 			<Bullfrog MayRequire="Ludeon.RimWorld.Odyssey">0.2</Bullfrog>
 			<Duck>0.1</Duck>
 			<Tortoise>0.05</Tortoise>
+			<Heron MayRequire="Ludeon.RimWorld.Odyssey">0.3</Heron>
 
 
 			<!-- large grazers -->
 			<ZWB_Wampler>1.0</ZWB_Wampler>
-			<ZWB_Terrakoi>0.5</ZWB_Terrakoi><!-- hauler -->
-			<ZWB_Catfish>1.0</ZWB_Catfish><!-- pack animal, very large -->
+			<ZWB_Terrakoi>0.5</ZWB_Terrakoi>		<!-- hauler -->
+			<ZWB_Catfish>1.0</ZWB_Catfish>			<!-- pack animal, very large -->
 
 			<ColossusToad MayRequire="Ludeon.RimWorld.Odyssey">0.03</ColossusToad>
 
 
 			<!-- scavengers -->
-			<ZWB_HardbackedSnop>0.5</ZWB_HardbackedSnop><!-- smaller pack animal, fighter -->
-			<ZWB_SnippySnop>0.4</ZWB_SnippySnop><!-- fighter -->
+			<ZWB_HardbackedSnop>1.0</ZWB_HardbackedSnop>	<!-- smaller pack animal, fighter -->
+			<ZWB_SnippySnop>0.8</ZWB_SnippySnop>			<!-- fighter -->
 
 
 			<!-- predator/grazers -->

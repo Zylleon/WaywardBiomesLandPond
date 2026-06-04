@@ -65,7 +65,7 @@
 			<fertilityMin>0.25</fertilityMin>
 			<choppedThingDef />
 			<smashedThingDef />
-			<visualSizeRange>0.8~3.9</visualSizeRange>
+			<visualSizeRange>0.9~3.9</visualSizeRange>
 			<topWindExposure>0.5</topWindExposure>
 			<wildClusterRadius>4</wildClusterRadius>
 			<wildClusterWeight>200</wildClusterWeight>

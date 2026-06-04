@@ -34,7 +34,7 @@
 			<leatherDef>ZWB_Leather_SiltSkin</leatherDef>
 			<roamMtbDays>2</roamMtbDays>
 			<trainability>None</trainability>
-			<manhunterOnTameFailChance>0.0</manhunterOnTameFailChance>
+			<manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.15</manhunterOnDamageChance>
 			<useMeatFrom>ZWB_Awanna</useMeatFrom>
 			<lifeExpectancy>11</lifeExpectancy>
