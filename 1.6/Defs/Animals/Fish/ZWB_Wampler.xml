@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_Wampler</defName>
 		<label>wampler</label>
-		<description>PLACEHOLDER - medium-large, greenish brown fish. Herbivore.</description>
+		<description>A large, docile land fish that lives in small groups.</description>
 		<statBases>
 			<MoveSpeed>4.4</MoveSpeed>
 			<ComfyTemperatureMin>-20</ComfyTemperatureMin>

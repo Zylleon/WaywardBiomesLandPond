@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_HardbackedSnop</defName>
 		<label>hardbacked snop</label>
-		<description>PLACEHOLDER - Alpaca sized, pack animal. Scavenger. Spawns in groups of 1-3. Live birth. Rideable in caravans.</description>
+		<description>These oversized crayfish have been bred for generations to be sturdy and docile. They'll carry a pack for long distances, and even let you ride them.</description>
 		<statBases>
 			<MoveSpeed>4.5</MoveSpeed>
 			<ComfyTemperatureMin>-25</ComfyTemperatureMin>
@@ -15,6 +15,7 @@
 			<Wildness>0.3</Wildness>
 			<!-- <LeatherAmount>13</LeatherAmount> -->
 			<ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
 			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
 			<CaravanRidingSpeedFactor>1.15</CaravanRidingSpeedFactor>
 		</statBases>
@@ -30,7 +31,7 @@
 			<lifeExpectancy>8</lifeExpectancy>
 			<meatLabel>crawdad meat</meatLabel>
 			<!-- <useMeatFrom>ZWB_Bubbler</useMeatFrom> -->
-			<leatherDef>Leather_Plain</leatherDef>
+			<leatherDef>ZWB_LoticChitin</leatherDef>
 			<gestationPeriodDays>6.5</gestationPeriodDays>
 			<lifeStageAges>
 				<li>

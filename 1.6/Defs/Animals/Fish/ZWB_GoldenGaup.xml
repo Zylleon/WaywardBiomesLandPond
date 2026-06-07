@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_GoldenGaup</defName>
 		<label>golden gaup</label>
-		<description>PLACEHOLDER: A small predatory fish, also a grazer. Small schools. intermediate trainability. Quite fast.</description>
+		<description>Descended from ancient earth trout, these quick golden fish are willing to eat almost anything. They'll even hunt in a pinch.</description>
 		<statBases>
 			<MoveSpeed>5.5</MoveSpeed>
 			<ComfyTemperatureMin>-40</ComfyTemperatureMin>

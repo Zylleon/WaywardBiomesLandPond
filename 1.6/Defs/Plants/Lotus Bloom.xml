@@ -35,7 +35,7 @@
 			<topWindExposure>0.5</topWindExposure>
 			<harvestWork>250</harvestWork>
 			<purpose>Food</purpose>
-			<harvestYield>3</harvestYield>
+			<harvestYield>4</harvestYield>
 			<harvestedThingDef>ZWB_LotusSeeds</harvestedThingDef>
 			<harvestTag>Standard</harvestTag>
 			<harvestMinGrowth>0.9</harvestMinGrowth>

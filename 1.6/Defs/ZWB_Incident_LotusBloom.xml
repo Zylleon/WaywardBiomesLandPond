@@ -9,9 +9,9 @@
     <targetTags>
       <li>Map_PlayerHome</li>
     </targetTags>
+	<minRefireDays>35</minRefireDays>
     <workerClass>ZWBCore.IncidentWorker_PlantCluster</workerClass>
 	<plantDef>ZWB_GiantLotusBloom</plantDef>
-
 	<numClusters>3~7</numClusters>
 	<countPerCluster>8~23</countPerCluster>
 	<spawnRadius>4~11</spawnRadius>

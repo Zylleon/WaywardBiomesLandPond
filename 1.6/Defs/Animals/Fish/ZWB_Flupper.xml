@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_Flupper</defName>
 		<label>flupper</label>
-		<description>PLACEHOLDER: A medium-small herbivore. Friendly, pretty, low wildness, high petness. Many colors. Hauler but small. Medium to large schools. Live birth.</description>
+		<description>Descended from escaped aquarium pets, fluppers are smart, colorful, and friendly.</description>
 		<statBases>
 			<MoveSpeed>5.5</MoveSpeed>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>

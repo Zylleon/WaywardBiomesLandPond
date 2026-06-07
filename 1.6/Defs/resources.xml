@@ -51,6 +51,65 @@
 		</stuffProps>
 	</ThingDef>
 
+	<ThingDef ParentName="ResourceBase">
+		<defName>ZWB_LoticChitin</defName>
+		<label>lotic chitin</label>
+		<description>A metallic chitin, probably harvested from a large freshwater snail or crab.</description>
+		<graphicData>
+			<texPath>ZWB_Textures/Things/Chitin</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(137,128,63)</color>
+		</graphicData>
+		<soundInteract>Metal_Drop</soundInteract>
+		<soundDrop>Metal_Drop</soundDrop>
+		<statBases>
+			<MarketValue>3.4</MarketValue>
+			<Mass>0.30</Mass>
+			<StuffPower_Armor_Sharp>0.95</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.46</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.70</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>6</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>4</StuffPower_Insulation_Heat>
+			<SharpDamageMultiplier>1.06</SharpDamageMultiplier>
+			<BluntDamageMultiplier>.93</BluntDamageMultiplier>
+		</statBases>
+		<useHitPoints>false</useHitPoints>
+		<healthAffectsPrice>false</healthAffectsPrice>
+		<thingCategories>
+			<li>ResourcesRaw</li>
+		</thingCategories>
+		<deepCommonality>4</deepCommonality>
+		<deepCountPerPortion>45</deepCountPerPortion>
+		<deepLumpSizeRange>20~30</deepLumpSizeRange>
+		<burnableByRecipe>false</burnableByRecipe>
+		<smeltable>false</smeltable>
+		<stuffProps>
+			<stuffAdjective>lotic chitin</stuffAdjective>
+			<categories>
+				<li>Metallic</li>
+			</categories>
+			<appearance>Metal</appearance>
+			<commonality>0.15</commonality>
+			<constructEffect>ConstructMetal</constructEffect>
+			<isAirtight>true</isAirtight>
+			<color>(137,128,63)</color>
+			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
+			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
+			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
+			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Metal</soundImpactMelee>
+			<statFactors>
+				<MaxHitPoints>1.1</MaxHitPoints>
+				<Beauty>1</Beauty>
+				<Flammability>0.1</Flammability>
+				<WorkToMake>1.25</WorkToMake>
+				<WorkToBuild>1.25</WorkToBuild>
+			</statFactors>
+			<canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
+		</stuffProps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<allowedArchonexusCount>80</allowedArchonexusCount>
+	</ThingDef>
+
 
 </Defs>
 

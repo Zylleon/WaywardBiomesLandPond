@@ -6,7 +6,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>ZWB_SnippySnop</defName>
 		<label>snippy snop</label>
-		<description>PLACEHOLDER - Small. Scavenger. Spawns solo. Aggressive, good fighter.</description>
+		<description>A small, aggressive crayfish. Quite wild, but makes a good attack animal once trained.</description>
 		<statBases>
 			<MoveSpeed>4.8</MoveSpeed>
 			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
@@ -28,7 +28,7 @@
 			<trainability>Intermediate</trainability>
 			<lifeExpectancy>5</lifeExpectancy>
 			<useMeatFrom>ZWB_HardbackedSnop</useMeatFrom>
-			<leatherDef>Leather_Plain</leatherDef>
+			<leatherDef>ZWB_LoticChitin</leatherDef>
 			<gestationPeriodDays>3</gestationPeriodDays>
 			<manhunterOnDamageChance>0.9</manhunterOnDamageChance>
 			<manhunterOnTameFailChance>0.2</manhunterOnTameFailChance>
