@@ -29,6 +29,7 @@
 			<fertilityMin>0.25</fertilityMin>
 			<choppedThingDef />
 			<smashedThingDef />
+			<blockAdjacentSow>false</blockAdjacentSow>
 			<visualSizeRange>0.5~2.4</visualSizeRange>
 			<topWindExposure>0.5</topWindExposure>
 			<wildClusterRadius>4</wildClusterRadius>
@@ -67,6 +68,7 @@
 			<fertilityMin>0.25</fertilityMin>
 			<choppedThingDef />
 			<smashedThingDef />
+			<blockAdjacentSow>false</blockAdjacentSow>
 			<visualSizeRange>0.9~3.9</visualSizeRange>
 			<topWindExposure>0.5</topWindExposure>
 			<wildClusterRadius>4</wildClusterRadius>

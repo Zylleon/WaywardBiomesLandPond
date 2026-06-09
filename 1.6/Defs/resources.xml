@@ -58,7 +58,7 @@
 		<graphicData>
 			<texPath>ZWB_Textures/Things/Chitin</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
-			<color>(137,128,63)</color>
+			<color>(112,105,59)</color>
 		</graphicData>
 		<soundInteract>Metal_Drop</soundInteract>
 		<soundDrop>Metal_Drop</soundDrop>
@@ -70,8 +70,8 @@
 			<StuffPower_Armor_Heat>0.70</StuffPower_Armor_Heat>
 			<StuffPower_Insulation_Cold>6</StuffPower_Insulation_Cold>
 			<StuffPower_Insulation_Heat>4</StuffPower_Insulation_Heat>
-			<SharpDamageMultiplier>1.06</SharpDamageMultiplier>
-			<BluntDamageMultiplier>.93</BluntDamageMultiplier>
+			<SharpDamageMultiplier>1.07</SharpDamageMultiplier>
+			<BluntDamageMultiplier>.85</BluntDamageMultiplier>
 		</statBases>
 		<useHitPoints>false</useHitPoints>
 		<healthAffectsPrice>false</healthAffectsPrice>
@@ -92,15 +92,16 @@
 			<commonality>0.15</commonality>
 			<constructEffect>ConstructMetal</constructEffect>
 			<isAirtight>true</isAirtight>
-			<color>(137,128,63)</color>
+			<color>(112,105,59)</color>
 			<soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
 			<soundMeleeHitSharp>MeleeHit_Metal_Sharp</soundMeleeHitSharp>
 			<soundMeleeHitBlunt>MeleeHit_Metal_Blunt</soundMeleeHitBlunt>
 			<soundImpactMelee>Pawn_Melee_Punch_HitBuilding_Metal</soundImpactMelee>
 			<statFactors>
 				<MaxHitPoints>1.1</MaxHitPoints>
-				<Beauty>1</Beauty>
+				<Beauty>1.5</Beauty>
 				<Flammability>0.1</Flammability>
+				<MaxHitPoints>0.75</MaxHitPoints>
 				<WorkToMake>1.25</WorkToMake>
 				<WorkToBuild>1.25</WorkToBuild>
 			</statFactors>

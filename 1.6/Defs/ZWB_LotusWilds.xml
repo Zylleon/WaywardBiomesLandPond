@@ -173,9 +173,10 @@
 			<ZWB_Dippet>1.0</ZWB_Dippet>
 			<ZWB_Glurble>1.0</ZWB_Glurble>
 			<ZWB_Skyfin>0.5</ZWB_Skyfin>
-			<ZWB_Flupper>0.5</ZWB_Flupper>
-			<ZWB_Suribora>1</ZWB_Suribora>			<!-- hauler -->
+			<ZWB_Flupper>0.5</ZWB_Flupper>			<!-- hauler -->
+			<ZWB_Suribora>1</ZWB_Suribora>
 			<ZWB_LotusFrog>0.4</ZWB_LotusFrog>
+			<ZWB_MysterySnail>0.25</ZWB_MysterySnail>
 
 			<Bullfrog MayRequire="Ludeon.RimWorld.Odyssey">0.2</Bullfrog>
 			<Duck>0.1</Duck>
