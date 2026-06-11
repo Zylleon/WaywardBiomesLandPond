@@ -95,7 +95,7 @@
 				<painFactor>0.95</painFactor>
 				<naturalHealingFactor>1.05</naturalHealingFactor>
 				<statOffsets>
-					<ImmunityGainSpeed>1.05</ImmunityGainSpeed>
+					<ImmunityGainSpeed>0.10</ImmunityGainSpeed>
 				</statOffsets>
 			</li>
 		</stages>

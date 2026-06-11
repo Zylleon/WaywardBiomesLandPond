@@ -189,7 +189,6 @@
 			<ZWB_Terrakoi>0.4</ZWB_Terrakoi>		<!-- hauler -->
 			<ZWB_Catfish>1.0</ZWB_Catfish>			<!-- pack animal, very large -->
 
-			<ColossusToad MayRequire="Ludeon.RimWorld.Odyssey">0.03</ColossusToad>
 
 
 			<!-- scavengers -->
