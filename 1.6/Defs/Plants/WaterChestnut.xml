@@ -25,7 +25,7 @@
 				<li>Hydroponic</li>
 			</sowTags>
 			<mustBeWildToSow>true</mustBeWildToSow>
-			<fertilityMin>0.5</fertilityMin>
+			<fertilityMin>0.05</fertilityMin>
 			<fertilitySensitivity>0.8</fertilitySensitivity>
 			<growDays>7.5</growDays>
 			<immatureGraphicPath>ZWB_Textures/Plants/WaterChestnut_Immature</immatureGraphicPath>

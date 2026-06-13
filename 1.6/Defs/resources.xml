@@ -6,7 +6,7 @@
 	<ThingDef ParentName="LeatherBase">
 		<defName>ZWB_Leather_SiltSkin</defName>
 		<label>silt skin</label>
-		<description>Lightweight, thin animal skin. Probably harvested from a small freshwater animal. Less protective than other leathers.</description>
+		<description>Lightweight, thin animal skin. Probably harvested from a small freshwater animal. Pretty, but not very protective.</description>
 		<graphicData>
 			<color>(131,116,81)</color>
 		</graphicData>
@@ -22,6 +22,7 @@
 			<commonality>0.15</commonality>
 			<statFactors>
 				<MaxHitPoints>1.0</MaxHitPoints>
+				<Beauty>1.25</Beauty>
 			</statFactors>
 		</stuffProps>
 	</ThingDef>
@@ -30,7 +31,7 @@
 	<ThingDef ParentName="LeatherBase">
 		<defName>ZWB_Leather_MurkyHide</defName>
 		<label>murky hide</label>
-		<description>Tanned, dried, scraped fish hide from a larger freshwater fish. A good tough material for making clothes and bags.</description>
+		<description>Tanned, dried, scraped hide from a large freshwater creature. A good tough material for making clothes and bags.</description>
 		<graphicData>
 			<color>(80,83,50)</color>
 		</graphicData>

@@ -25,8 +25,8 @@
 				<li>Hydroponic</li>
 			</sowTags>
 			<mustBeWildToSow>true</mustBeWildToSow>
-			<fertilityMin>0.05</fertilityMin>
-			<fertilitySensitivity>1.2</fertilitySensitivity>
+			<fertilityMin>0.4</fertilityMin>
+			<fertilitySensitivity>1.0</fertilitySensitivity>
 			<growDays>3.4</growDays>
 			<immatureGraphicPath>ZWB_Textures/Plants/Watercress_Immature</immatureGraphicPath>
 			<harvestYield>7</harvestYield>

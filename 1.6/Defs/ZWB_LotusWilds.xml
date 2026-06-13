@@ -37,7 +37,8 @@
 			<rareCatchesSetMaker MayRequire="Ludeon.RimWorld.Odyssey">RareFishingCatches_Temperate</rareCatchesSetMaker>
 		</fishTypes>
 		<soundsAmbient>
-			<li>Ambient_NightInsects_Standard</li>
+			<!-- <li>Ambient_NightInsects_Standard</li> -->
+			<li>ZWB_Ambience_Cicadas</li>
 		</soundsAmbient>
 		<diseaseMtbDays>50</diseaseMtbDays>
 		<diseases>
