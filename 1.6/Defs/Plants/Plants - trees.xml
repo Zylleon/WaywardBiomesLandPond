@@ -25,10 +25,11 @@
 		<plant>
 			<fertilitySensitivity>0.75</fertilitySensitivity>
 			<growDays>13</growDays>
-			<lifespanDaysPerGrowDays>6</lifespanDaysPerGrowDays>
+			<lifespanDaysPerGrowDays>7</lifespanDaysPerGrowDays>
 			<fertilityMin>0.25</fertilityMin>
 			<choppedThingDef />
 			<smashedThingDef />
+			<sowWork>3000</sowWork>
 			<blockAdjacentSow>false</blockAdjacentSow>
 			<visualSizeRange>0.5~2.4</visualSizeRange>
 			<topWindExposure>0.5</topWindExposure>
@@ -62,9 +63,10 @@
 		<!-- <hideAtSnowOrSandDepth>0.5</hideAtSnowOrSandDepth> -->
 		<ingestible/>
 		<plant>
+			<sowWork>1500</sowWork>
 			<fertilitySensitivity>0.75</fertilitySensitivity>
 			<growDays>6</growDays>
-			<lifespanDaysPerGrowDays>6</lifespanDaysPerGrowDays>
+			<lifespanDaysPerGrowDays>7</lifespanDaysPerGrowDays>
 			<fertilityMin>0.25</fertilityMin>
 			<choppedThingDef />
 			<smashedThingDef />

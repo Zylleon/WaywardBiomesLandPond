@@ -30,7 +30,7 @@
 			<herdAnimal>false</herdAnimal>
 			<baseBodySize>2.75</baseBodySize>
 			<baseHungerRate>0.58</baseHungerRate>
-			<baseHealthScale>1.9</baseHealthScale>
+			<baseHealthScale>2.1</baseHealthScale>
 			<foodType>OmnivoreRoughAnimal</foodType>
 			<leatherDef>ZWB_Leather_MurkyHide</leatherDef>
 			<useMeatFrom>ZWB_Awanna</useMeatFrom>

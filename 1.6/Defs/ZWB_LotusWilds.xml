@@ -126,10 +126,10 @@
 
 		<baseWeatherCommonalities>
 			<Clear>18</Clear>
-			<Fog>1</Fog>
+			<Fog>2</Fog>
 			<Rain>2</Rain>
-			<DryThunderstorm>1.5</DryThunderstorm>
-			<RainyThunderstorm>1</RainyThunderstorm>
+			<DryThunderstorm>1.0</DryThunderstorm>
+			<RainyThunderstorm>1.5</RainyThunderstorm>
 			<FoggyRain>1</FoggyRain>
 			<SnowGentle>2</SnowGentle>
 			<SnowHard>4</SnowHard>

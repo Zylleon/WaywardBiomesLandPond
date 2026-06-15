@@ -37,7 +37,7 @@ namespace ZWB_LotusWilds
             }
 
 
-            return 100f;
+            return 16.1f + tile.temperature;
         }
     }
 

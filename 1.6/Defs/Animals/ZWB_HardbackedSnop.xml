@@ -33,6 +33,8 @@
 			<!-- <useMeatFrom>ZWB_Bubbler</useMeatFrom> -->
 			<leatherDef>ZWB_LoticChitin</leatherDef>
 			<gestationPeriodDays>6.5</gestationPeriodDays>
+			<manhunterOnDamageChance>0.1</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0.0</manhunterOnTameFailChance>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>

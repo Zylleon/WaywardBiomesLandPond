@@ -21,7 +21,7 @@
 				<eggFertilizationCountMax>1</eggFertilizationCountMax>
 				<eggLayIntervalDays>6</eggLayIntervalDays>
 				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
-				<eggCountRange>1~2</eggCountRange>
+				<eggCountRange>1~1</eggCountRange>
 			</li>
 		</comps>
 		<race>
@@ -278,7 +278,7 @@
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Hatcher">
-				<hatcherDaystoHatch>6</hatcherDaystoHatch>
+				<hatcherDaystoHatch>5.5</hatcherDaystoHatch>
 				<hatcherPawn>ZWB_Terrakoi</hatcherPawn>
 			</li>
 		</comps>
