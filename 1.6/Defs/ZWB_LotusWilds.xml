@@ -150,6 +150,7 @@
 			<ZWB_Bloodfern>0.6</ZWB_Bloodfern>
 			<ZWB_Arrowleaf>1.2</ZWB_Arrowleaf>
 			<ZWB_MinnowsTangle>0.5</ZWB_MinnowsTangle>
+			<ZWB_Trapanat>0.05</ZWB_Trapanat>
 
 			<ZWB_Siltweed>0.6</ZWB_Siltweed>
 			<ZWB_Dross>0.6</ZWB_Dross>
@@ -160,7 +161,7 @@
 			<ZWB_WaterChestnutPlant>0.03</ZWB_WaterChestnutPlant>
 			<ZWB_WatercressPlant>0.04</ZWB_WatercressPlant>
 			<Plant_HealrootWild>0.015</Plant_HealrootWild>
-
+			<ZWB_Pondfluff>0.015</ZWB_Pondfluff>
 
 			<!-- water plants -->
 			<Plant_Reeds MayRequire="Ludeon.RimWorld.Odyssey">0.8</Plant_Reeds>
@@ -207,7 +208,7 @@
 			<ZWB_Quet>0.1</ZWB_Quet>			<!-- mid sized -->
 			<ZWB_Awanna>0.1</ZWB_Awanna>		<!-- pack animal, very large -->
 
-			<Alligator MayRequire="Ludeon.RimWorld.Odyssey">0.05</Alligator>
+			<Alligator MayRequire="Ludeon.RimWorld.Odyssey">0.03</Alligator>
 			<BogHound MayRequire="Ludeon.RimWorld.Odyssey">0.025</BogHound>
 
 		</wildAnimals>

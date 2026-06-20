@@ -152,7 +152,40 @@
 			<wildClusterRadius>5</wildClusterRadius>
 			<wildClusterWeight>450</wildClusterWeight>
 			<wildOrder>2</wildOrder>
+			<purpose>Beauty</purpose>
 		</plant>
 	</ThingDef>
+	
+	
+	<ThingDef ParentName="PlantBase">
+		<defName>ZWB_Trapanat</defName>
+		<label>trapanat</label>
+		<description>Multicolored rosettes of leaves.</description>
+		<statBases>
+			<MaxHitPoints>800</MaxHitPoints>
+			<Beauty>4</Beauty>
+			<BeautyOutdoors>4</BeautyOutdoors>
+			<Nutrition>0.3</Nutrition>
+		</statBases>
+		<pathCost>5</pathCost>
+		<graphicData>
+			<texPath>ZWB_Textures/Plants/Trapanat</texPath>
+			<graphicClass>Graphic_Random</graphicClass>
+		</graphicData>
+		<selectable>true</selectable>
+		<hideAtSnowOrSandDepth>0.3</hideAtSnowOrSandDepth>
+		<ingestible/>
+		<plant>
+			<fertilitySensitivity>0.5</fertilitySensitivity>
+			<growDays>3.5</growDays>
+			<fertilityMin>0.05</fertilityMin>
+			<visualSizeRange>0.6~1.1</visualSizeRange>
+			<topWindExposure>0.1</topWindExposure>
+			<wildClusterRadius>4</wildClusterRadius>
+			<wildClusterWeight>90</wildClusterWeight>
+			<wildOrder>1</wildOrder>
+		</plant>
+	</ThingDef>
+	
 </Defs>
 
