@@ -37,8 +37,8 @@
 
 
 	<ThingDef ParentName="PlantBase">
-		<defName>ZWB_Pondruff</defName>
-		<label>pondruff</label>
+		<defName>ZWB_Mireweed</defName>
+		<label>mireweed</label>
 		<description>A long stemmed plant with plump leaves.</description>
 		<statBases>
 			<MaxHitPoints>120</MaxHitPoints>
@@ -48,7 +48,7 @@
 		</statBases>
 		<pathCost>18</pathCost>
 		<graphicData>
-			<texPath>ZWB_Textures/Plants/Pondruff</texPath>
+			<texPath>ZWB_Textures/Plants/Mireweed</texPath>
 			<graphicClass>Graphic_Random</graphicClass>
 		</graphicData>
 		<selectable>true</selectable>

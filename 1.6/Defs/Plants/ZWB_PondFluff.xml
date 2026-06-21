@@ -19,14 +19,14 @@
 		<ingestible/>
 		<plant>
 			<fertilityMin>0.5</fertilityMin>
-			<fertilitySensitivity>1.0</fertilitySensitivity>
+			<fertilitySensitivity>0.85</fertilitySensitivity>
 			<immatureGraphicPath>ZWB_Textures/Plants/Pondfluff_Immature</immatureGraphicPath>
 			<dieIfLeafless>false</dieIfLeafless>
 			<harvestTag>Standard</harvestTag>
 			<harvestedThingDef>ZWB_PondfluffCloth</harvestedThingDef>
 			<harvestYield>9</harvestYield>
 			<topWindExposure>0.2</topWindExposure>
-			<visualSizeRange>0.7~1.1</visualSizeRange>
+			<visualSizeRange>0.85~1.7</visualSizeRange>
 			<maxMeshCount>4</maxMeshCount>
 			<wildOrder>3</wildOrder>
 			<wildClusterRadius>15</wildClusterRadius>
@@ -52,7 +52,7 @@
 			<color>(167,162,158)</color>
 		</graphicData>
 		<statBases>
-			<MarketValue>1.7</MarketValue>
+			<MarketValue>1.9</MarketValue>
 			<Mass>0.024</Mass>
 			<Flammability>0.9</Flammability>
 			<DeteriorationRate>3</DeteriorationRate>
@@ -75,6 +75,7 @@
 				<Flammability>0.27</Flammability>
 				<MaxHitPoints>0.85</MaxHitPoints>
 				<Beauty>3.5</Beauty>
+				<Comfort>1.05</Comfort>
 			</statFactors>
 		</stuffProps>
 		<thingCategories>
