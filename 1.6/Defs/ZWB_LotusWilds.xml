@@ -5,7 +5,7 @@
 	<BiomeDef>
 		<defName>ZWB_LotusWilds</defName>
 		<label>lotus wilds</label>
-		<description>Groves of towering giant lotus plants, interspersed with reeds and grasses. Schools of land-adapted fish and other freshwater creatures wander through the foliage here.</description>
+		<description>Groves of towering giant lotus plants, interspersed with reeds and grasses. Densely populated with schools of land-adapted fish and other freshwater creatures.</description>
 		<texture>ZWB_Textures/LotusWilds</texture>
 		<!-- <workerClass>ZWBCore.BiomeWorker_Test</workerClass>  -->
 		<workerClass>ZWB_LotusWilds.BiomeWorker_LotusWilds</workerClass>
@@ -13,7 +13,7 @@
 		<movementDifficulty>1.5</movementDifficulty>
 		<animalDensity>4.1</animalDensity>
 		<plantDensity>0.85</plantDensity>
-		<wildPlantRegrowDays>12</wildPlantRegrowDays>
+		<wildPlantRegrowDays>14</wildPlantRegrowDays>
 		<forageability>1</forageability>
 		<foragedFood>ZWB_Watercress</foragedFood>
 		<maxFishPopulation>600</maxFishPopulation>
@@ -205,7 +205,7 @@
 
 			<!-- predators -->
 			<ZWB_RiverOtter>0.1</ZWB_RiverOtter>		<!-- small -->
-			<ZWB_Quet>0.1</ZWB_Quet>			<!-- mid sized -->
+			<ZWB_Quet>0.17</ZWB_Quet>			<!-- mid sized -->
 			<ZWB_Awanna>0.1</ZWB_Awanna>		<!-- pack animal, very large -->
 
 			<Alligator MayRequire="Ludeon.RimWorld.Odyssey">0.03</Alligator>

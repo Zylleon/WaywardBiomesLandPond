@@ -5,12 +5,18 @@
 	<supportedVersions><li>1.6</li></supportedVersions>
 	<packageId>zylle.WaywardBiomes.LotusWilds</packageId>
 	<modIconPath IgnoreIfNoMatchingField="True">GUI/ZModLogo</modIconPath>
-	<description>Groves of towering giant lotus plants, interspersed with reeds and grasses. Schools of land-adapted fish and other freshwater creatures wander through the foliage here.
+	<description>Groves of towering giant lotus plants, interspersed with reeds and grasses. Densely populated with schools of land-adapted fish and other freshwater creatures.
 	
 Lotus wilds are found in cold to temperate areas. This is a densely populated biome, with fast-growing trees and many animals.
 
+Requires Wayward Biomes: Core
+
+Credits:
+knightgimp - concept and inspiration
+
+
 Discord: https://discord.gg/RCY5bpCu9q
-Github: 
+Github: https://github.com/Zylleon/WaywardBiomesLandPond/releases/latest
 </description>
 	<modDependencies>
 		<li>
