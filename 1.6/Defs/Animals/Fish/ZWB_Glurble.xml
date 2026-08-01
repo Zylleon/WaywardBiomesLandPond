@@ -182,7 +182,7 @@
 		<label>glurble egg (fert.)</label>
 		<description>A fertilized glurble egg. If all goes well, it should hatch into a baby glurble. It can be eaten raw, but it's much better cooked.</description>
 		<graphicData>
-			<texPath>Things/Item/Resource/AnimalProductRaw/EggRound</texPath>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
 			<color>(117,102,69)</color>
 			<drawSize>1.0</drawSize>
 		</graphicData>

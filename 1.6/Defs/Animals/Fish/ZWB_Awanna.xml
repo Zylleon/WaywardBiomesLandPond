@@ -34,7 +34,7 @@
 			<foodType>CarnivoreAnimal</foodType>
 			<leatherDef>ZWB_Leather_MurkyHide</leatherDef>
 			<trainability>Intermediate</trainability>
-			<meatLabel>lotic fish meat</meatLabel>
+			<specificMeatDef>Meat_ZWB_Awanna</specificMeatDef>
 			<lifeExpectancy>34</lifeExpectancy>
 			<!-- <petness>0.5</petness> -->
 			<!-- <nuzzleMtbHours>36</nuzzleMtbHours> -->

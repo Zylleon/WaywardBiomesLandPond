@@ -113,5 +113,16 @@
 	</ThingDef>
 
 
+	<ThingDef ParentName="ZWB_MeatBase">
+		<defName>Meat_ZWB_Awanna</defName>
+		<label>lotic fish meat</label>
+		<graphicData>
+			<texPath>ZWB_Textures/Things/LoticFishMeat</texPath>
+		</graphicData>
+		<thingCategories>
+			<li>MeatRaw</li>
+		</thingCategories>
+	</ThingDef>
+
 </Defs>
 
